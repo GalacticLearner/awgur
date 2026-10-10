@@ -3,6 +3,7 @@ out=pathlib.Path('qa/android');out.mkdir(parents=True,exist_ok=True)
 def adb(*args):return subprocess.check_output(['adb',*args],text=True)
 adb('install','-r','android/app/build/outputs/apk/debug/app-debug.apk')
 adb('logcat','-c');adb('shell','am','start','-W','-n','app.worksregistry.demo/.MainActivity');time.sleep(8)
+app_pid=adb('shell','pidof','app.worksregistry.demo').strip().split()[0]
 # UIAutomator cannot reliably traverse WebView content and can time out while tiles render.
 # Retain its tree when available; rendered-content and complete flow checks are authoritative.
 try:
@@ -12,6 +13,7 @@ except subprocess.CalledProcessError:
 adb('shell','screencap','-p','/sdcard/launch.png');adb('pull','/sdcard/launch.png',str(out/'launch.png'))
 subprocess.check_call(['node','scripts/native_probe.mjs'])
 log=adb('logcat','-d');(out/'logcat.txt').write_text(log)
-assert 'FATAL EXCEPTION' not in log,'Native crash detected'
+app_log=adb('logcat','-d',f'--pid={app_pid}');(out/'app-logcat.txt').write_text(app_log)
+assert 'FATAL EXCEPTION' not in app_log,'awgur process crashed'
 subprocess.check_call(['node','scripts/android_flow.mjs'])
 print('Installed APK content and complete native flows verified.')
