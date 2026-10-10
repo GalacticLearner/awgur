@@ -1,8 +1,10 @@
 # awgur
 
+Demo Link: https://drive.google.com/file/d/19woCJZnw_F_VJ7q46ykXUBC4l4oZDdUR/view?usp=sharing
+
 [Android APK release](https://github.com/GalacticLearner/awgur/releases/latest) · [Live website](https://galacticlearner.github.io/awgur/) · [Implementation and results](docs/clock-risk.md)
 
-[Download the 2:40 demo video](https://raw.githubusercontent.com/GalacticLearner/awgur/main/demo/awgur-demo.mp4) · [Timed narration script](docs/demo-script.md) · [Voice-over sync guide](docs/voiceover-sync.md). The silent 1080p video shows the hosted website and an installed Android APK, with zooms matched to the narration.
+
 
 [![Android checks](https://github.com/GalacticLearner/awgur/actions/workflows/android.yml/badge.svg)](https://github.com/GalacticLearner/awgur/actions/workflows/android.yml)
 
