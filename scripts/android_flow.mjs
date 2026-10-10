@@ -5,7 +5,7 @@ import { execFileSync } from 'node:child_process';
 import { mkdirSync,writeFileSync,readFileSync } from 'node:fs';
 const out='qa/android';mkdirSync(out,{recursive:true});
 const adb=(...args)=>execFileSync('adb',args,{encoding:'utf8'});
-const screenshot=async name=>{await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));await page.waitForTimeout(200);writeFileSync(`${out}/${name}.png`,execFileSync('adb',['exec-out','screencap','-p']))};
+const screenshot=async name=>{await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));await page.waitForTimeout(1500);writeFileSync(`${out}/${name}.png`,execFileSync('adb',['exec-out','screencap','-p']))};
 const checks=[],errors=[];
 const [device]=await android.devices({omitDriverInstall:true});
 if(!device)throw Error('No CI emulator');
@@ -25,6 +25,7 @@ try {
  await expect(page.getByRole('button',{name:'Following',exact:true})).toBeVisible();
  await page.getByLabel('Demo account').selectOption('officer');
  await page.getByLabel('Public note',{exact:true}).fill('Synthetic QA note: replacement crew confirmed for the next demo work window.');
+ await page.getByLabel('Public note',{exact:true}).blur();await page.waitForTimeout(1500);
  await page.getByRole('button',{name:'Save delay reason',exact:true}).click();
  await expect(page.getByText('Synthetic QA note: replacement crew confirmed for the next demo work window.',{exact:true})).toBeVisible();
  await screenshot('project-ledger');check('Resident project, follow and officer delay ledger');
@@ -33,7 +34,7 @@ try {
  await expect(page.locator('.permit-detail .finding-label').filter({hasText:'R1'})).toHaveCount(1);
  await expect(page.locator('.permit-detail .finding-label').filter({hasText:'R2'}).first()).toBeVisible();
  await expect(page.getByRole('heading',{name:'R3 · Dig-once suggestion',exact:true})).toBeVisible();
- await screenshot('officer-before');
+ await page.locator('.permit-detail-heading').scrollIntoViewIfNeeded();await screenshot('officer-before');
  await page.getByRole('button',{name:'Apply suggested window',exact:true}).first().click();
  await expect(page.locator('.permit-detail .finding-label').filter({hasText:'R1'})).toHaveCount(0);
  await expect(page.getByLabel('Review start date')).toHaveValue('2026-11-01');
@@ -61,7 +62,7 @@ try {
  await go('/project/clock-risk-relay-demo');await expect(page.locator('.finish-forecast')).toContainText('Latest likely finish');await page.locator('.finish-forecast').scrollIntoViewIfNeeded();await screenshot('clock-forecast');
  await go('/project/clock-risk-thin-demo');await expect(page.locator('.finish-forecast')).toContainText('No finish forecast');await page.locator('.finish-forecast').scrollIntoViewIfNeeded();await screenshot('clock-insufficient');
  await go('/review/permit-2');await expect(page.locator('.finding-label').filter({hasText:'R6'})).toHaveCount(1);await page.locator('.findings-section').scrollIntoViewIfNeeded();await screenshot('clock-review');await page.getByRole('button',{name:'Apply suggested start',exact:true}).click();await expect(page.locator('.finding-label').filter({hasText:'R6'})).toHaveCount(0);check('Clock Risk forecast, insufficient history and rechecked suggested start');
- await go('/');await page.locator('.sheet-heading').click();await expect(page.locator('.sheet-heading')).toHaveAttribute('aria-expanded','true');
+ await go('/');await page.locator('.sheet-heading').click();await expect(page.locator('.sheet-heading')).toHaveAttribute('aria-expanded','true');await screenshot('street-expanded');
  adb('shell','input','keyevent','4');await expect(page.locator('.sheet-heading')).toHaveAttribute('aria-expanded','false');
  await page.locator('.work-row').first().click();await expect(page.locator('.project-heading')).toBeVisible();
  adb('shell','input','keyevent','4');await expect(page.locator('.sheet-heading')).toBeVisible();
