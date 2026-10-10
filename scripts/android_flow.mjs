@@ -65,9 +65,25 @@ try {
  check('Hardware back collapses sheet and returns from project without exiting');
  await page.getByRole('link',{name:'About',exact:true}).click();await page.getByRole('button',{name:'Reset demo',exact:true}).click();await expect(page.getByRole('dialog')).toBeVisible();adb('shell','input','keyevent','4');await expect(page.getByRole('dialog')).toHaveCount(0);check('Hardware back closes dialog');
  await go('/');
- for(const [label,width,height] of [['phone-360',1080,1920],['phone-412',1236,2745]]){adb('shell','wm','size',`${width}x${height}`);adb('shell','wm','density','480');await page.waitForTimeout(1200);await expect(page.locator('.bottom-nav')).toBeVisible();const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1);expect(overflow).toBe(false);await screenshot(label);checks.push(`${label}: no horizontal overflow`)}
- adb('shell','wm','size','1920x1080');await page.waitForTimeout(1000);await screenshot('landscape');expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1)).toBe(false);check('Landscape layout remains within viewport');
- adb('shell','wm','size','1080x1920');await page.waitForTimeout(1000);
+ const resizeDevice=async(width,height)=>{
+  adb('shell','am','force-stop','app.worksregistry.demo');
+  adb('shell','wm','density','480');adb('shell','wm','size',`${width}x${height}`);
+  await new Promise(resolve=>setTimeout(resolve,2500));
+  adb('shell','am','start','-W','-n','app.worksregistry.demo/.MainActivity');
+  const pid=Number(adb('shell','pidof','app.worksregistry.demo').trim());
+  await expect.poll(()=>device.webViews().some(v=>v.pid()===pid),{timeout:20000}).toBe(true);
+  page=await device.webViews().find(v=>v.pid()===pid).page();page.setDefaultTimeout(20000);page.on('pageerror',error=>errors.push(String(error)));
+  await expect(page.getByRole('heading',{name:'South Mada Street',exact:true})).toBeVisible();
+  await expect.poll(()=>page.evaluate(()=>innerWidth)).toBe(Math.round(width/3));
+  await page.waitForTimeout(2000);
+  const layout=await page.evaluate(()=>{const r=document.querySelector('.bottom-nav').getBoundingClientRect();return {width:innerWidth,height:innerHeight,scroll:document.documentElement.scrollWidth,nav:{left:r.left,right:r.right,top:r.top,bottom:r.bottom}}});
+  expect(layout.scroll).toBeLessThanOrEqual(layout.width+1);expect(layout.nav.right).toBeLessThanOrEqual(layout.width+1);expect(layout.nav.bottom).toBeLessThanOrEqual(layout.height+1);expect(layout.nav.top).toBeGreaterThan(0);
+  return layout;
+ };
+ const sizes=[];
+ for(const [label,width,height] of [['phone-360',1080,1920],['phone-412',1236,2745],['landscape',1920,1080]]){sizes.push({label,...await resizeDevice(width,height)});await screenshot(label);check(`${label}: settled viewport and navigation fit`)}
+ writeFileSync(`${out}/viewport-checks.json`,JSON.stringify(sizes,null,2));
+ await resizeDevice(1080,1920);
  await page.getByLabel('Search streets').click();await page.getByLabel('Search streets').fill('Mada');await expect(page.locator('.search-results')).toBeVisible();await screenshot('search-keyboard');adb('shell','input','keyevent','4');check('Search suggestions remain available with input focused');
  const timing=await page.evaluate(()=>({viewport:[innerWidth,innerHeight],paint:performance.getEntriesByType('paint').map(p=>({name:p.name,startTime:p.startTime}))}));
  writeFileSync(`${out}/performance.json`,JSON.stringify(timing,null,2));

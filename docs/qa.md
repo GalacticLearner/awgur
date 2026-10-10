@@ -28,3 +28,13 @@ CI run 38025053878 passed tests, validation, APK compile, install and launch. Ta
 
 ## Phase 3 screens
 Browser resident project flow renders seeded timeline, delays and restoration. Combined officer flow displays R1/R2/R3; applying R3 shifts the request to 1–8 November and removes R1. Empty emergency reason blocks approval; a recorded reason appears on the public work page. All screens compile; native Share added. Local persistence and native back/offline flows are now covered by the installed-APK CI script; results pending.
+
+## Phase 3 acceptance
+CI 38027373282 passed engine checks, browser flows and installed APK flows. Checkpoint phase-3-green preserves that build.
+
+## Phase 4 verification
+Current source a235861 passed Android CI 38031265467 and hosted deployment 38031265476. Installed API 35 emulator passed 16 checks: resident and officer flows, all eight hero projects, new permit, persistent emergency/follow/delay state, hardware back including root exit, offline cold launch, small/large/landscape layouts, keyboard search and no JavaScript exceptions. Browser tests at 1440×900, 390×844, 360×640 and 412×915 passed the hero flow, persistence, overflow and keyboard-operable 48px markers. Missing-file recovery, malformed stored-state recovery and modal focus containment passed.
+
+Signed release candidate cec4e36 passed run 38030978666. The signed APK installed and opened; its 30 bundled web files exactly matched the debug variant tested in that build. The settled airplane-mode capture visibly shows bundled streets, works and the offline banner. The five-second capture was still loading; the thirteen-second capture was ready. Therefore a sub-three-second complete cold launch is NOT established. The approximately 430ms debug first contentful paint is not a full-ready timing measurement.
+
+Limits: no physical-phone, TalkBack, minimum-API or mobile-data/incognito test has been performed. Landscape evidence uses emulator viewport resizing. These remain unverified, not passed. Final public release download/install and finish review are pending.
