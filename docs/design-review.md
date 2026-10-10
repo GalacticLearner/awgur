@@ -26,3 +26,10 @@ Questions skipped: user delegated routine decisions and requested hands-free del
 The first finish review returned `recapture`: the 360px Android screenshot was clipped after dynamic density resizing. The test now restarts the app after each size change, checks the exact CSS viewport width and navigation bounds, and captures settled output. Run 38038034970 attempt 1 was interrupted by a Pixel Launcher ANR overlay before those checks; this is recorded as an emulator failure, not a passing app check. A failed-job rerun is pending.
 
 The build was plan-led and extended an incumbent civic-atlas direction. No concept-roll seed or five-block contract was created before implementation. The finish reviewer correctly treated those inputs as missing. This is an explicit process departure, recorded rather than repaired with a retrospective invented seed. The durable product and interface authority is PRODUCT.md plus the shipped-code-derived DESIGN.md.
+
+## Final dispositions
+The base verdict pass returned ship after scoring its three fixes resolved: recorded process departure, attribution visible in collapsed/expanded/offline/landscape states, and labelled permit metadata below the heading. That verdict covers those three fixes only.
+
+The separate fresh Phase 6 finish review returned ship on its full 13-capture/source packet, with no material fixes. It judged the addition against the durable incumbent system; no QUALITY BAR card or retrospective concept seed was invented. Physical phone, TalkBack and real-network performance are not certified by either verdict.
+
+The shipped documenter merged the provisional direction into normative token-bearing DESIGN.md and schemaVersion2 .impeccable/design.json with eight component snippets. The observed 40px compact-landscape search/account exception and small map caption were not canonized as universal design rules. Final source behavior is frozen; later changes concern delivery documentation and capture tooling.

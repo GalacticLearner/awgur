@@ -1,0 +1,33 @@
+import {chromium,expect} from '@playwright/test';
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {execFileSync} from 'node:child_process';
+const out='qa/demo';mkdirSync(`${out}/raw`,{recursive:true});
+const url='https://galacticlearner.github.io/awgur/';
+const works=JSON.parse(readFileSync('public/data/works.json','utf8'));
+const street=works.find(work=>work.id==='clock-risk-relay-demo').segmentIds[0];
+const browser=await chromium.launch({headless:true});
+const context=await browser.newContext({viewport:{width:1440,height:810},recordVideo:{dir:`${out}/raw/web`,size:{width:1440,height:810}}});
+const page=await context.newPage(),created=performance.now(),errors=[];page.on('pageerror',error=>errors.push(String(error)));page.setDefaultTimeout(25000);
+const go=async path=>page.goto(`${url}#${path}`);
+let start;
+const at=async seconds=>{const remaining=seconds*1000-(performance.now()-start);if(remaining>0)await page.waitForTimeout(remaining)};
+try{
+ await go('/about');await expect(page.getByRole('heading',{name:'Clock Risk · dates are promises',exact:true})).toBeVisible();
+ await go('/project/clock-risk-relay-demo');await expect(page.locator('.finish-forecast')).toContainText('Latest likely finish');
+ await page.getByLabel('Demo account').selectOption('officer');await go('/review/permit-2');await expect(page.locator('.finding-label').filter({hasText:'R6'})).toHaveCount(1);
+ await page.getByLabel('Demo account').selectOption('resident');await go(`/?street=${street}`);await expect(page.getByRole('heading',{name:'Thiruvalluvar Road',exact:true})).toBeVisible();
+ await page.waitForTimeout(1000);start=performance.now();
+ const metadata={source:'actual public GitHub Pages website',url,git:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),offsetSeconds:(start-created)/1000,anchors:{},events:[]};
+ const event=name=>metadata.events.push({name,seconds:(performance.now()-start)/1000});
+ await at(8);await go('/project/clock-risk-relay-demo');await page.getByRole('heading',{name:'Planned & actual timeline',exact:true}).scrollIntoViewIfNeeded();event('planned timeline');
+ await at(22);await page.getByLabel('Demo account').selectOption('officer');await go('/review/permit-2');await page.locator('.findings-section').scrollIntoViewIfNeeded();metadata.anchors.risk=await page.locator('.findings-section').boundingBox();event('planned-safe but R6 warning');
+ await at(39);await go('/about');await page.getByRole('table',{name:'Hindsight moratorium check · 63 relays/resurfacings',exact:true}).scrollIntoViewIfNeeded();metadata.anchors.hindsight=await page.getByRole('table',{name:/Hindsight moratorium/}).boundingBox();event('hindsight and waiting cost');
+ await at(63);await page.getByRole('table',{name:'Leave-one-out finish-bound coverage',exact:true}).scrollIntoViewIfNeeded();metadata.anchors.coverage=await page.getByRole('table',{name:'Leave-one-out finish-bound coverage',exact:true}).boundingBox();event('finish coverage');
+ await at(73);await page.locator('.clock-risk-results>p').nth(1).scrollIntoViewIfNeeded();event('coverage condition');
+ await at(78);await page.locator('.clock-risk-results>p').filter({hasText:'Limits: synthetic history;'}).scrollIntoViewIfNeeded();event('limits and research');
+ await at(85);await page.getByLabel('Demo account').selectOption('resident');await go(`/?street=${street}`);await expect(page.getByRole('heading',{name:'Thiruvalluvar Road',exact:true})).toBeVisible();event('closing street');
+ await at(95.3);if(errors.length)throw Error(errors.join('\n'));
+ writeFileSync(`${out}/web-recording.json`,JSON.stringify({...metadata,errors},null,2));
+ const video=page.video();await context.close();await video.saveAs(`${out}/raw/web.webm`);
+ console.log('Public website footage recorded against the fixed script.');
+}finally{await browser.close()}
