@@ -10,7 +10,7 @@ try {
  for(const [name,width,height] of [['desktop',1440,900],['mobile',390,844],['phone-small',360,640],['phone-large',412,915]]){
   const context=await browser.newContext({viewport:{width,height},deviceScaleFactor:1});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(String(e)));
   await page.goto('http://127.0.0.1:4173/');await expect(page.getByRole('heading',{name:'South Mada Street',exact:true})).toBeVisible();
-  await page.screenshot({path:`${out}/${name}.png`});expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1)).toBe(false);
+  await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));await page.waitForTimeout(300);await page.screenshot({path:`${out}/${name}.png`});expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1)).toBe(false);
   const marker=page.getByRole('button',{name:'View street with clash · South Mada Street'}).first();const box=await marker.boundingBox();expect(box.width).toBeGreaterThanOrEqual(48);expect(box.height).toBeGreaterThanOrEqual(48);await marker.focus();await page.keyboard.press('Enter');await expect(page.getByRole('heading',{name:'South Mada Street',exact:true})).toBeVisible();
   await page.getByLabel('Demo account').selectOption('officer');await page.getByRole('link',{name:'Review',exact:true}).click();await page.locator('a[href="#/review/permit-1"]').first().click();
   await expect(page.locator('.finding-label').filter({hasText:'R1'})).toHaveCount(1);await page.getByRole('button',{name:'Apply suggested window',exact:true}).first().click();await expect(page.locator('.finding-label').filter({hasText:'R1'})).toHaveCount(0);

@@ -15,6 +15,9 @@ log=adb('logcat','-d');(out/'logcat.txt').write_text(log)
 assert 'FATAL EXCEPTION' not in log,'Native release crash'
 assert 'android.webkit.WebView' in (out/'release.xml').read_text(),'Release WebView missing'
 # Capture a true offline cold launch of the signed release; visually reviewed before publication.
-adb('shell','cmd','connectivity','airplane-mode','enable');adb('shell','svc','wifi','disable');adb('shell','svc','data','disable');adb('shell','am','force-stop','app.worksregistry.demo');adb('shell','am','start','-W','-n','app.worksregistry.demo/.MainActivity');time.sleep(5)
+adb('shell','cmd','connectivity','airplane-mode','enable');adb('shell','svc','wifi','disable');adb('shell','svc','data','disable');time.sleep(3);adb('shell','am','force-stop','app.worksregistry.demo');adb('shell','am','start','-W','-n','app.worksregistry.demo/.MainActivity');time.sleep(5)
 with open(out/'release-offline.png','wb') as image:image.write(subprocess.check_output(['adb','exec-out','screencap','-p']))
+time.sleep(8)
+with open(out/'release-offline-settled.png','wb') as image:image.write(subprocess.check_output(['adb','exec-out','screencap','-p']))
+(out/'offline-logcat.txt').write_text(adb('logcat','-d'))
 print('Signed APK installs, opens, has identical web assets to tested debug build, and offline-launch captures are ready.')
