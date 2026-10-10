@@ -496,5 +496,57 @@
     "r2_negative": 16,
     "r3_positive": 12,
     "r3_negative": 8
+  },
+  "clockRisk": {
+    "scope": "Synthetic seeded ledger, including existing completed demo records. Generated delay distributions are assumptions. Leave-one-out replay checks the mechanism; it does not estimate Chennai delays, real permit error rates or a per-work probability.",
+    "alpha": 0.1,
+    "coverage": {
+      "evaluated": 196,
+      "covered": 179,
+      "rate": 0.9132653061224489,
+      "insufficientIds": [],
+      "byAgency": {
+        "GCC": {
+          "evaluated": 44,
+          "covered": 40,
+          "rate": 0.9090909090909091,
+          "insufficient": 0
+        },
+        "BSNL": {
+          "evaluated": 23,
+          "covered": 21,
+          "rate": 0.9130434782608695,
+          "insufficient": 0
+        },
+        "PrivateTelecom": {
+          "evaluated": 38,
+          "covered": 35,
+          "rate": 0.9210526315789473,
+          "insufficient": 0
+        },
+        "Tangedco": {
+          "evaluated": 47,
+          "covered": 43,
+          "rate": 0.9148936170212766,
+          "insufficient": 0
+        },
+        "CMWSSB": {
+          "evaluated": 44,
+          "covered": 40,
+          "rate": 0.9090909090909091,
+          "insufficient": 0
+        }
+      }
+    },
+    "hindsight": {
+      "evaluated": 63,
+      "plannedFalseSafe": 56,
+      "boundFalseSafe": 3,
+      "plannedRate": 0.8888888888888888,
+      "boundRate": 0.047619047619047616,
+      "meanExtraDays": 11.873015873015873,
+      "medianExtraDays": 12,
+      "insufficientIds": []
+    }
   }
 }

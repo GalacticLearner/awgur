@@ -3,7 +3,7 @@
 ## Phase 0
 - Local Node 24.21; Java / adb / Android SDK absent. CI-only Android build.
 - React scaffold: production build succeeded; local preview loaded.
-- Hosted companion loaded without login at https://galacticlearner.github.io/works-registry/.
+- Hosted companion loaded without login at https://galacticlearner.github.io/awgur/.
 - Private plan, research context and original Word file excluded from Git tracking.
 - Dependency audit: zero known vulnerabilities after patching development-tool transitive dependencies.
 - Android CI: first run failed on obsolete SDK package `tools`; current SDK platform/build-tools explicitly selected.

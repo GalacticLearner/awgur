@@ -13,7 +13,23 @@
     "hero-long-title"
   ],
   "heroPermitId": "permit-1",
+  "clockRiskPermitId": "permit-2",
+  "basePermit2": {
+    "id": "permit-2",
+    "title": "Utility permit 2",
+    "agency": "CMWSSB",
+    "type": "cut",
+    "purpose": "Synthetic utility permit for officer review.",
+    "segmentIds": [
+      "osm-1155954749-1"
+    ],
+    "start": "2026-10-20",
+    "end": "2026-10-27",
+    "flexDays": 30,
+    "channel": "municipal"
+  },
   "seed": 100102026,
   "backgroundCount": 120,
+  "calibrationCount": 100,
   "groundTruthCount": 76
 }

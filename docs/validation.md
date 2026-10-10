@@ -106,3 +106,23 @@ R3 valid suggestions: 12/12 (100.0%).
 ## Limits
 
 These isolated fixtures are intentionally synthetic, balanced and constructed; perfect performance is not evidence of usefulness on real permits. Adjacent segments share exact OSM endpoints. Opposite carriageways are distinct segment ids. No coordinate snapping or parsing is implemented, so their robustness/accuracy tests are omitted. B0 is exact street-name plus overlapping dates; B1 ignores space and checks date overlap only. Both baselines use effective actual completion dates.
+
+## Clock Risk
+
+Synthetic seeded ledger, including existing completed demo records. Generated delay distributions are assumptions. Leave-one-out replay checks the mechanism; it does not estimate Chennai delays, real permit error rates or a per-work probability.
+
+Leave-one-out upper-bound coverage: 179/196 (91.3%). Insufficient history: 0.
+
+| Agency | Covered/evaluated | Coverage | Insufficient |
+|---|---:|---:|---:|
+| GCC | 40/44 | 90.9% | 0 |
+| BSNL | 21/23 | 91.3% | 0 |
+| PrivateTelecom | 35/38 | 92.1% | 0 |
+| Tangedco | 43/47 | 91.5% | 0 |
+| CMWSSB | 40/44 | 90.9% | 0 |
+
+Hindsight relay/resurface comparison (63 records): planned-date false-safe 56/63 (88.9%); slip-bound false-safe 3/63 (4.8%). Mean extra wait 11.9 days; median 12 days.
+
+Excluded from coverage: none. Excluded from hindsight: none.
+
+The finite-sample lower coverage guarantee requires exchangeable scores in the chosen reference class. It is marginal, not a guarantee for this street or season. Tied integer slips can over-cover. Completed records exclude abandoned and still-running works; seasonal shifts and padded baseline schedules can invalidate the practical assumption.

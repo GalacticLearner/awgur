@@ -11,7 +11,7 @@ try {
  const query=`[out:json][timeout:60];way[highway~"^(residential|tertiary|secondary|primary|unclassified|living_street)$"](${BBOX.join(',')});out geom;`;
  let result:any;
  for(const endpoint of ['https://overpass.private.coffee/api/interpreter','https://maps.mail.ru/osm/tools/overpass/api/interpreter']) {
-   try{const response=await fetch(endpoint,{method:'POST',headers:{'User-Agent':'WorksRegistryHackathon/1.0 (https://github.com/GalacticLearner/works-registry)'},body:new URLSearchParams({data:query}),signal:AbortSignal.timeout(90000)});if(!response.ok)throw Error(String(response.status));result=await response.json();break}catch(error){console.warn('Overpass attempt failed:',String(error))}
+   try{const response=await fetch(endpoint,{method:'POST',headers:{'User-Agent':'awgurDemo/1.0 (https://github.com/GalacticLearner/awgur)'},body:new URLSearchParams({data:query}),signal:AbortSignal.timeout(90000)});if(!response.ok)throw Error(String(response.status));result=await response.json();break}catch(error){console.warn('Overpass attempt failed:',String(error))}
  }
  if(!result?.elements?.length) throw Error('No OSM ways available');
  // Split at all shared OSM vertices, so network adjacency is real even where a junction sits inside a way.

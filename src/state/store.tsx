@@ -1,7 +1,8 @@
 import { createContext,useContext,useEffect,useState } from 'react';
 import type { ReactNode } from 'react';
 import type { Work,PermitRequest,Segment,ValidationReport,DelayEntry,Suggestion } from '../engine/types';
-import { DEMO_TODAY,RESTORATION_DAYS,addDays,validateSuggestion,assertWindow,utc } from '../engine';
+import { DEMO_TODAY,RESTORATION_DAYS,addDays,validateSuggestion,assertWindow,utc,ENABLE_CLOCK_RISK } from '../engine';
+import { clockSeed } from '../engine/clockSeed';
 type Role='resident'|'officer';
 interface Stored { version:1;works:Work[];requests:PermitRequest[];followed:string[];role:Role }
 interface Data { segments:Segment[];validation:ValidationReport;demo:{heroStreetId:string;heroStreetName:string;heroProjectIds:string[]};geometry:{source:string;attribution:string;segmentCount:number} }
@@ -32,7 +33,15 @@ export function StoreProvider({children}:{children:ReactNode}) {
   const names=['segments','works','requests','validation','demo','geometry'];
   const [segments,works,requests,validation,demo,geometry]=await Promise.all(names.map(async name=>{const response=await fetch(`./data/${name}.json`);if(!response.ok)throw Error(`Missing ${name} data`);return response.json()}));
   if(!Array.isArray(segments)||!segments.length||!Array.isArray(works)||!Array.isArray(requests)||!validation.rules||!demo.heroStreetId)throw Error('Demo data could not be read');
-  if(cancelled)return;setData({segments,validation,demo,geometry});setSeeds({works,requests});setState(readStored(new Set(segments.map((segment:Segment)=>segment.id)))||{version:1,works,requests,followed:[],role:'resident'});setLoading(false);
+  if(cancelled)return;
+  const seed=clockSeed(works,requests,demo.basePermit2,ENABLE_CLOCK_RISK);
+  const stored=readStored(new Set(segments.map((segment:Segment)=>segment.id)));
+  if(stored&&ENABLE_CLOCK_RISK&&!stored.works.some(work=>work.id==='clock-risk-relay-demo')){
+   stored.works.push(...works.filter((work:Work)=>work.id.startsWith('ledger-')||work.id.startsWith('clock-risk-')));
+   stored.requests=stored.requests.map(request=>request.id==='permit-2'&&!request.decision&&request.start===demo.basePermit2?.start&&request.end===demo.basePermit2?.end?requests.find((item:PermitRequest)=>item.id==='permit-2'):request);
+  }
+  const restored=stored?{...stored,...clockSeed(stored.works,stored.requests,demo.basePermit2,ENABLE_CLOCK_RISK)}:undefined;
+  setData({segments,validation,demo,geometry});setSeeds(seed);setState(restored||{version:1,...seed,followed:[],role:'resident'});setLoading(false);
  }catch{if(!cancelled){setError('The bundled demo data could not be loaded. Try reloading the registry.');setLoading(false)}}};void load();return()=>{cancelled=true}},[attempt]);
  useEffect(()=>{if(loading||error)return;try{localStorage.setItem(KEY,JSON.stringify(state));setSaveError('')}catch{setSaveError('Changes cannot be saved on this device. Keep the app open or free some storage.')}},[state,loading,error]);
  const update=(fn:(value:Stored)=>Stored)=>setState(fn);

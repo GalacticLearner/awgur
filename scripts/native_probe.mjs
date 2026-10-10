@@ -18,5 +18,5 @@ const result=await new Promise((resolve,reject)=>{
  socket.onerror=reject;
 });
 writeFileSync('qa/android/rendered-text.txt',String(result));
-if(!String(result).includes('Works Registry')||!String(result).includes('Synthetic demo data')) throw new Error('Installed APK content or disclosure missing');
+if(!String(result).includes('awgur')||!String(result).includes('Synthetic demo data')) throw new Error('Installed APK content or disclosure missing');
 console.log('Installed WebView rendered content verified.');

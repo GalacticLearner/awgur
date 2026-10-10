@@ -2466,6 +2466,2671 @@
     "followers": 21
   },
   {
+    "id": "ledger-001",
+    "title": "Historical relay record · Thiruvalluvar Road",
+    "type": "relay",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1030689331-0"
+    ],
+    "start": "2025-07-27",
+    "end": "2025-08-01",
+    "actualEnd": "2025-08-04",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-001",
+    "delays": [
+      {
+        "date": "2025-08-01",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-31",
+    "restoredOn": "2025-08-16",
+    "followers": 43
+  },
+  {
+    "id": "ledger-002",
+    "title": "Historical resurface record · Unnamed lane",
+    "type": "resurface",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1077883473-0"
+    ],
+    "start": "2025-07-19",
+    "end": "2025-07-25",
+    "actualEnd": "2025-08-02",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-002",
+    "delays": [
+      {
+        "date": "2025-07-25",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-24",
+    "restoredOn": "2025-08-13",
+    "followers": 55
+  },
+  {
+    "id": "ledger-003",
+    "title": "Historical pipeline record · Unnamed lane",
+    "type": "pipeline",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1077883473-1"
+    ],
+    "start": "2025-07-11",
+    "end": "2025-07-18",
+    "actualEnd": "2025-07-26",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-003",
+    "delays": [
+      {
+        "date": "2025-07-18",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-17",
+    "restoredOn": "2025-08-05",
+    "followers": 68
+  },
+  {
+    "id": "ledger-004",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1116475731-0"
+    ],
+    "start": "2025-07-03",
+    "end": "2025-07-11",
+    "actualEnd": "2025-07-14",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-004",
+    "delays": [
+      {
+        "date": "2025-07-11",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-10",
+    "restoredOn": "2025-07-23",
+    "followers": 32
+  },
+  {
+    "id": "ledger-005",
+    "title": "Historical cable record · Thiruvalluvar Salai",
+    "type": "cable",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1149820889-0"
+    ],
+    "start": "2025-06-25",
+    "end": "2025-07-04",
+    "actualEnd": "2025-07-08",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-005",
+    "delays": [
+      {
+        "date": "2025-07-04",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-03",
+    "restoredOn": "2025-07-16",
+    "followers": 48
+  },
+  {
+    "id": "ledger-006",
+    "title": "Historical drain record · East Coast Road",
+    "type": "drain",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1149854618-0"
+    ],
+    "start": "2025-06-17",
+    "end": "2025-06-27",
+    "actualEnd": "2025-07-18",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-006",
+    "delays": [
+      {
+        "date": "2025-06-27",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-07-27",
+    "restoredOn": "2025-07-30",
+    "followers": 30
+  },
+  {
+    "id": "ledger-007",
+    "title": "Historical relay record · East Coast Road",
+    "type": "relay",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1149854618-1"
+    ],
+    "start": "2025-06-09",
+    "end": "2025-06-20",
+    "actualEnd": "2025-06-25",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-007",
+    "delays": [
+      {
+        "date": "2025-06-20",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-07-20",
+    "restoredOn": "2025-07-06",
+    "followers": 2
+  },
+  {
+    "id": "ledger-008",
+    "title": "Historical resurface record · East Coast Road",
+    "type": "resurface",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1149854619-0"
+    ],
+    "start": "2025-06-01",
+    "end": "2025-06-13",
+    "actualEnd": "2025-06-15",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-008",
+    "delays": [
+      {
+        "date": "2025-06-13",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-07-13",
+    "restoredOn": "2025-06-25",
+    "followers": 9
+  },
+  {
+    "id": "ledger-009",
+    "title": "Historical pipeline record · East Coast Road",
+    "type": "pipeline",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1149854619-1"
+    ],
+    "start": "2025-05-24",
+    "end": "2025-06-06",
+    "actualEnd": "2025-06-06",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-009",
+    "delays": [],
+    "restorationDue": "2025-07-06",
+    "restoredOn": "2025-06-15",
+    "followers": 14
+  },
+  {
+    "id": "ledger-010",
+    "title": "Historical cut record · East Coast Road",
+    "type": "cut",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1149854620-0"
+    ],
+    "start": "2025-05-16",
+    "end": "2025-05-30",
+    "actualEnd": "2025-06-01",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-010",
+    "delays": [
+      {
+        "date": "2025-05-30",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-29",
+    "restoredOn": "2025-06-09",
+    "followers": 37
+  },
+  {
+    "id": "ledger-011",
+    "title": "Historical cable record · East Coast Road",
+    "type": "cable",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1149854621-0"
+    ],
+    "start": "2025-05-08",
+    "end": "2025-05-23",
+    "actualEnd": "2025-06-05",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-011",
+    "delays": [
+      {
+        "date": "2025-05-23",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-22",
+    "restoredOn": "2025-06-17",
+    "followers": 70
+  },
+  {
+    "id": "ledger-012",
+    "title": "Historical drain record · Unnamed lane",
+    "type": "drain",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1150130285-0"
+    ],
+    "start": "2025-04-30",
+    "end": "2025-05-16",
+    "actualEnd": "2025-05-31",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-012",
+    "delays": [
+      {
+        "date": "2025-05-16",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-15",
+    "restoredOn": "2025-06-11",
+    "followers": 75
+  },
+  {
+    "id": "ledger-013",
+    "title": "Historical relay record · 4th East Street",
+    "type": "relay",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1155954747-0"
+    ],
+    "start": "2025-04-22",
+    "end": "2025-05-09",
+    "actualEnd": "2025-05-12",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-013",
+    "delays": [
+      {
+        "date": "2025-05-09",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-08",
+    "restoredOn": "2025-05-22",
+    "followers": 73
+  },
+  {
+    "id": "ledger-014",
+    "title": "Historical resurface record · Unnamed lane",
+    "type": "resurface",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1155954748-0"
+    ],
+    "start": "2025-04-14",
+    "end": "2025-05-02",
+    "actualEnd": "2025-05-01",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-014",
+    "delays": [],
+    "restorationDue": "2025-06-01",
+    "restoredOn": "2025-05-10",
+    "followers": 38
+  },
+  {
+    "id": "ledger-015",
+    "title": "Historical pipeline record · Valmiki Street",
+    "type": "pipeline",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1155954749-0"
+    ],
+    "start": "2025-04-06",
+    "end": "2025-04-25",
+    "actualEnd": "2025-05-07",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-015",
+    "delays": [
+      {
+        "date": "2025-04-25",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-25",
+    "restoredOn": "2025-05-15",
+    "followers": 15
+  },
+  {
+    "id": "ledger-016",
+    "title": "Historical cut record · Valmiki Street",
+    "type": "cut",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1155954749-1"
+    ],
+    "start": "2025-03-29",
+    "end": "2025-04-18",
+    "actualEnd": "2025-04-19",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-016",
+    "delays": [
+      {
+        "date": "2025-04-18",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-18",
+    "restoredOn": "2025-05-01",
+    "followers": 51
+  },
+  {
+    "id": "ledger-017",
+    "title": "Historical cable record · Balakrishnan Road",
+    "type": "cable",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1188788815-0"
+    ],
+    "start": "2025-04-06",
+    "end": "2025-04-11",
+    "actualEnd": "2025-04-12",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-017",
+    "delays": [
+      {
+        "date": "2025-04-11",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-11",
+    "restoredOn": "2025-04-23",
+    "followers": 39
+  },
+  {
+    "id": "ledger-018",
+    "title": "Historical drain record · Balakrishnan Road",
+    "type": "drain",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1188788815-1"
+    ],
+    "start": "2025-03-29",
+    "end": "2025-04-04",
+    "actualEnd": "2025-04-08",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-018",
+    "delays": [
+      {
+        "date": "2025-04-04",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-04",
+    "restoredOn": "2025-04-18",
+    "followers": 62
+  },
+  {
+    "id": "ledger-019",
+    "title": "Historical relay record · Balakrishnan Road",
+    "type": "relay",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1188788815-2"
+    ],
+    "start": "2025-03-21",
+    "end": "2025-03-28",
+    "actualEnd": "2025-03-30",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-019",
+    "delays": [
+      {
+        "date": "2025-03-28",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-04-27",
+    "restoredOn": "2025-04-08",
+    "followers": 29
+  },
+  {
+    "id": "ledger-020",
+    "title": "Historical resurface record · Balakrishnan Road",
+    "type": "resurface",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1188788815-3"
+    ],
+    "start": "2025-03-13",
+    "end": "2025-03-21",
+    "actualEnd": "2025-03-24",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-020",
+    "delays": [
+      {
+        "date": "2025-03-21",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-04-20",
+    "restoredOn": "2025-04-01",
+    "followers": 51
+  },
+  {
+    "id": "ledger-021",
+    "title": "Historical pipeline record · Unnamed lane",
+    "type": "pipeline",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1189547543-0"
+    ],
+    "start": "2025-03-05",
+    "end": "2025-03-14",
+    "actualEnd": "2025-03-29",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-021",
+    "delays": [
+      {
+        "date": "2025-03-14",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-04-13",
+    "restoredOn": "2025-04-10",
+    "followers": 74
+  },
+  {
+    "id": "ledger-022",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1189553229-0"
+    ],
+    "start": "2025-02-25",
+    "end": "2025-03-07",
+    "actualEnd": "2025-03-19",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-022",
+    "delays": [
+      {
+        "date": "2025-03-07",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-04-06",
+    "restoredOn": "2025-03-30",
+    "followers": 3
+  },
+  {
+    "id": "ledger-023",
+    "title": "Historical cable record · Unnamed lane",
+    "type": "cable",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1189553229-1"
+    ],
+    "start": "2025-02-17",
+    "end": "2025-02-28",
+    "actualEnd": "2025-03-17",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-023",
+    "delays": [
+      {
+        "date": "2025-02-28",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-03-30",
+    "restoredOn": "2025-03-27",
+    "followers": 7
+  },
+  {
+    "id": "ledger-024",
+    "title": "Historical drain record · Unnamed lane",
+    "type": "drain",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1189554270-0"
+    ],
+    "start": "2025-02-09",
+    "end": "2025-02-21",
+    "actualEnd": "2025-02-28",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-024",
+    "delays": [
+      {
+        "date": "2025-02-21",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-03-23",
+    "restoredOn": "2025-03-09",
+    "followers": 38
+  },
+  {
+    "id": "ledger-025",
+    "title": "Historical relay record · Unnamed lane",
+    "type": "relay",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1189556440-0"
+    ],
+    "start": "2025-02-01",
+    "end": "2025-02-14",
+    "actualEnd": "2025-02-21",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-025",
+    "delays": [
+      {
+        "date": "2025-02-14",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-03-16",
+    "restoredOn": "2025-03-01",
+    "followers": 26
+  },
+  {
+    "id": "ledger-026",
+    "title": "Historical resurface record · Unnamed lane",
+    "type": "resurface",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1189560074-0"
+    ],
+    "start": "2025-01-24",
+    "end": "2025-02-07",
+    "actualEnd": "2025-02-09",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-026",
+    "delays": [
+      {
+        "date": "2025-02-07",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-03-09",
+    "restoredOn": "2025-02-21",
+    "followers": 39
+  },
+  {
+    "id": "ledger-027",
+    "title": "Historical pipeline record · Unnamed lane",
+    "type": "pipeline",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1189820003-0"
+    ],
+    "start": "2025-01-16",
+    "end": "2025-01-31",
+    "actualEnd": "2025-02-05",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-027",
+    "delays": [
+      {
+        "date": "2025-01-31",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-03-02",
+    "restoredOn": "2025-02-16",
+    "followers": 15
+  },
+  {
+    "id": "ledger-028",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1191778170-0"
+    ],
+    "start": "2025-01-08",
+    "end": "2025-01-24",
+    "actualEnd": "2025-02-06",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-028",
+    "delays": [
+      {
+        "date": "2025-01-24",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-02-23",
+    "restoredOn": "2025-02-16",
+    "followers": 20
+  },
+  {
+    "id": "ledger-029",
+    "title": "Historical cable record · Unnamed lane",
+    "type": "cable",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1191778171-0"
+    ],
+    "start": "2024-12-31",
+    "end": "2025-01-17",
+    "actualEnd": "2025-01-20",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-029",
+    "delays": [
+      {
+        "date": "2025-01-17",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-02-16",
+    "restoredOn": "2025-01-29",
+    "followers": 14
+  },
+  {
+    "id": "ledger-030",
+    "title": "Historical drain record · Unnamed lane",
+    "type": "drain",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210667922-0"
+    ],
+    "start": "2024-12-23",
+    "end": "2025-01-10",
+    "actualEnd": "2025-01-20",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-030",
+    "delays": [
+      {
+        "date": "2025-01-10",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-02-09",
+    "restoredOn": "2025-01-28",
+    "followers": 10
+  },
+  {
+    "id": "ledger-031",
+    "title": "Historical relay record · Unnamed lane",
+    "type": "relay",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210668624-0"
+    ],
+    "start": "2024-12-15",
+    "end": "2025-01-03",
+    "actualEnd": "2025-01-09",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-031",
+    "delays": [
+      {
+        "date": "2025-01-03",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-02-02",
+    "restoredOn": "2025-01-21",
+    "followers": 46
+  },
+  {
+    "id": "ledger-032",
+    "title": "Historical resurface record · Unnamed lane",
+    "type": "resurface",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210669639-0"
+    ],
+    "start": "2024-12-07",
+    "end": "2024-12-27",
+    "actualEnd": "2025-01-12",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-032",
+    "delays": [
+      {
+        "date": "2024-12-27",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-01-26",
+    "restoredOn": "2025-01-23",
+    "followers": 17
+  },
+  {
+    "id": "ledger-033",
+    "title": "Historical pipeline record · Unnamed lane",
+    "type": "pipeline",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210669639-1"
+    ],
+    "start": "2024-12-15",
+    "end": "2024-12-20",
+    "actualEnd": "2024-12-25",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-033",
+    "delays": [
+      {
+        "date": "2024-12-20",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-01-19",
+    "restoredOn": "2025-01-04",
+    "followers": 64
+  },
+  {
+    "id": "ledger-034",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210669639-2"
+    ],
+    "start": "2024-12-07",
+    "end": "2024-12-13",
+    "actualEnd": "2024-12-21",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-034",
+    "delays": [
+      {
+        "date": "2024-12-13",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-01-12",
+    "restoredOn": "2024-12-30",
+    "followers": 22
+  },
+  {
+    "id": "ledger-035",
+    "title": "Historical cable record · Unnamed lane",
+    "type": "cable",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210669640-0"
+    ],
+    "start": "2024-11-29",
+    "end": "2024-12-06",
+    "actualEnd": "2024-12-09",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-035",
+    "delays": [
+      {
+        "date": "2024-12-06",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-01-05",
+    "restoredOn": "2024-12-17",
+    "followers": 33
+  },
+  {
+    "id": "ledger-036",
+    "title": "Historical drain record · Unnamed lane",
+    "type": "drain",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210669640-1"
+    ],
+    "start": "2024-11-21",
+    "end": "2024-11-29",
+    "actualEnd": "2024-12-11",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-036",
+    "delays": [
+      {
+        "date": "2024-11-29",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2024-12-29",
+    "restoredOn": "2024-12-23",
+    "followers": 28
+  },
+  {
+    "id": "ledger-037",
+    "title": "Historical relay record · Unnamed lane",
+    "type": "relay",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210669641-0"
+    ],
+    "start": "2024-11-13",
+    "end": "2024-11-22",
+    "actualEnd": "2024-11-26",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-037",
+    "delays": [
+      {
+        "date": "2024-11-22",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2024-12-22",
+    "restoredOn": "2024-12-07",
+    "followers": 49
+  },
+  {
+    "id": "ledger-038",
+    "title": "Historical resurface record · Unnamed lane",
+    "type": "resurface",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210669641-1"
+    ],
+    "start": "2024-11-05",
+    "end": "2024-11-15",
+    "actualEnd": "2024-12-07",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-038",
+    "delays": [
+      {
+        "date": "2024-11-15",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2024-12-15",
+    "restoredOn": "2024-12-17",
+    "followers": 35
+  },
+  {
+    "id": "ledger-039",
+    "title": "Historical pipeline record · Unnamed lane",
+    "type": "pipeline",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210671922-0"
+    ],
+    "start": "2024-10-28",
+    "end": "2024-11-08",
+    "actualEnd": "2024-11-27",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-039",
+    "delays": [
+      {
+        "date": "2024-11-08",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2024-12-08",
+    "restoredOn": "2024-12-06",
+    "followers": 0
+  },
+  {
+    "id": "ledger-040",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210671923-0"
+    ],
+    "start": "2024-10-20",
+    "end": "2024-11-01",
+    "actualEnd": "2024-11-10",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-040",
+    "delays": [
+      {
+        "date": "2024-11-01",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2024-12-01",
+    "restoredOn": "2024-11-18",
+    "followers": 58
+  },
+  {
+    "id": "ledger-041",
+    "title": "Historical cable record · Unnamed lane",
+    "type": "cable",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210671924-0"
+    ],
+    "start": "2025-07-19",
+    "end": "2025-08-01",
+    "actualEnd": "2025-08-03",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-041",
+    "delays": [
+      {
+        "date": "2025-08-01",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-31",
+    "restoredOn": "2025-08-15",
+    "followers": 48
+  },
+  {
+    "id": "ledger-042",
+    "title": "Historical drain record · Unnamed lane",
+    "type": "drain",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210677624-0"
+    ],
+    "start": "2025-07-11",
+    "end": "2025-07-25",
+    "actualEnd": "2025-07-28",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-042",
+    "delays": [
+      {
+        "date": "2025-07-25",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-24",
+    "restoredOn": "2025-08-08",
+    "followers": 11
+  },
+  {
+    "id": "ledger-043",
+    "title": "Historical relay record · Unnamed lane",
+    "type": "relay",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1210677624-1"
+    ],
+    "start": "2025-07-03",
+    "end": "2025-07-18",
+    "actualEnd": "2025-07-22",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-043",
+    "delays": [
+      {
+        "date": "2025-07-18",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-17",
+    "restoredOn": "2025-08-01",
+    "followers": 72
+  },
+  {
+    "id": "ledger-044",
+    "title": "Historical resurface record · Unnamed lane",
+    "type": "resurface",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1246265396-0"
+    ],
+    "start": "2025-06-25",
+    "end": "2025-07-11",
+    "actualEnd": "2025-07-13",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-044",
+    "delays": [
+      {
+        "date": "2025-07-11",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-10",
+    "restoredOn": "2025-07-22",
+    "followers": 51
+  },
+  {
+    "id": "ledger-045",
+    "title": "Historical pipeline record · Unnamed lane",
+    "type": "pipeline",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1246265396-1"
+    ],
+    "start": "2025-06-17",
+    "end": "2025-07-04",
+    "actualEnd": "2025-07-28",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-045",
+    "delays": [
+      {
+        "date": "2025-07-04",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-03",
+    "restoredOn": "2025-08-05",
+    "followers": 62
+  },
+  {
+    "id": "ledger-046",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1247577281-0"
+    ],
+    "start": "2025-06-09",
+    "end": "2025-06-27",
+    "actualEnd": "2025-07-02",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-046",
+    "delays": [
+      {
+        "date": "2025-06-27",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-07-27",
+    "restoredOn": "2025-07-14",
+    "followers": 28
+  },
+  {
+    "id": "ledger-047",
+    "title": "Historical cable record · Unnamed lane",
+    "type": "cable",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1247577516-0"
+    ],
+    "start": "2025-06-01",
+    "end": "2025-06-20",
+    "actualEnd": "2025-06-21",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-047",
+    "delays": [
+      {
+        "date": "2025-06-20",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-07-20",
+    "restoredOn": "2025-07-02",
+    "followers": 41
+  },
+  {
+    "id": "ledger-048",
+    "title": "Historical drain record · Unnamed lane",
+    "type": "drain",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1249388434-0"
+    ],
+    "start": "2025-05-24",
+    "end": "2025-06-13",
+    "actualEnd": "2025-07-09",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-048",
+    "delays": [
+      {
+        "date": "2025-06-13",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-07-13",
+    "restoredOn": "2025-07-19",
+    "followers": 0
+  },
+  {
+    "id": "ledger-049",
+    "title": "Historical relay record · Unnamed lane",
+    "type": "relay",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1265672974-0"
+    ],
+    "start": "2025-06-01",
+    "end": "2025-06-06",
+    "actualEnd": "2025-06-11",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-049",
+    "delays": [
+      {
+        "date": "2025-06-06",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-07-06",
+    "restoredOn": "2025-06-20",
+    "followers": 60
+  },
+  {
+    "id": "ledger-050",
+    "title": "Historical resurface record · Bhagat Singh Salai Road",
+    "type": "resurface",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1265672975-0"
+    ],
+    "start": "2025-05-24",
+    "end": "2025-05-30",
+    "actualEnd": "2025-06-11",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-050",
+    "delays": [
+      {
+        "date": "2025-05-30",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-29",
+    "restoredOn": "2025-06-19",
+    "followers": 50
+  },
+  {
+    "id": "ledger-051",
+    "title": "Historical pipeline record · Bhagat Singh Salai Road",
+    "type": "pipeline",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1265672975-1"
+    ],
+    "start": "2025-05-16",
+    "end": "2025-05-23",
+    "actualEnd": "2025-05-27",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-051",
+    "delays": [
+      {
+        "date": "2025-05-23",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-22",
+    "restoredOn": "2025-06-08",
+    "followers": 70
+  },
+  {
+    "id": "ledger-052",
+    "title": "Historical cut record · 22nd East Street Ext",
+    "type": "cut",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1265778244-0"
+    ],
+    "start": "2025-05-08",
+    "end": "2025-05-16",
+    "actualEnd": "2025-05-21",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-052",
+    "delays": [
+      {
+        "date": "2025-05-16",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-15",
+    "restoredOn": "2025-06-01",
+    "followers": 50
+  },
+  {
+    "id": "ledger-053",
+    "title": "Historical cable record · Unnamed lane",
+    "type": "cable",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1265778245-0"
+    ],
+    "start": "2025-04-30",
+    "end": "2025-05-09",
+    "actualEnd": "2025-05-15",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-053",
+    "delays": [
+      {
+        "date": "2025-05-09",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-08",
+    "restoredOn": "2025-05-25",
+    "followers": 53
+  },
+  {
+    "id": "ledger-054",
+    "title": "Historical drain record · Unnamed lane",
+    "type": "drain",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1265778246-0"
+    ],
+    "start": "2025-04-22",
+    "end": "2025-05-02",
+    "actualEnd": "2025-05-11",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-054",
+    "delays": [
+      {
+        "date": "2025-05-02",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-01",
+    "restoredOn": "2025-05-20",
+    "followers": 73
+  },
+  {
+    "id": "ledger-055",
+    "title": "Historical relay record · Unnamed lane",
+    "type": "relay",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1269005044-0"
+    ],
+    "start": "2025-04-14",
+    "end": "2025-04-25",
+    "actualEnd": "2025-05-02",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-055",
+    "delays": [
+      {
+        "date": "2025-04-25",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-25",
+    "restoredOn": "2025-05-10",
+    "followers": 39
+  },
+  {
+    "id": "ledger-056",
+    "title": "Historical resurface record · Unnamed lane",
+    "type": "resurface",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1269007142-0"
+    ],
+    "start": "2025-04-06",
+    "end": "2025-04-18",
+    "actualEnd": "2025-04-19",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-056",
+    "delays": [
+      {
+        "date": "2025-04-18",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-18",
+    "restoredOn": "2025-05-01",
+    "followers": 11
+  },
+  {
+    "id": "ledger-057",
+    "title": "Historical pipeline record · Unnamed lane",
+    "type": "pipeline",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1271945510-0"
+    ],
+    "start": "2025-03-29",
+    "end": "2025-04-11",
+    "actualEnd": "2025-04-15",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-057",
+    "delays": [
+      {
+        "date": "2025-04-11",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-11",
+    "restoredOn": "2025-04-26",
+    "followers": 77
+  },
+  {
+    "id": "ledger-058",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1271945511-0"
+    ],
+    "start": "2025-03-21",
+    "end": "2025-04-04",
+    "actualEnd": "2025-04-10",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-058",
+    "delays": [
+      {
+        "date": "2025-04-04",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-04",
+    "restoredOn": "2025-04-20",
+    "followers": 77
+  },
+  {
+    "id": "ledger-059",
+    "title": "Historical cable record · Unnamed lane",
+    "type": "cable",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1271945512-0"
+    ],
+    "start": "2025-03-13",
+    "end": "2025-03-28",
+    "actualEnd": "2025-03-29",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-059",
+    "delays": [
+      {
+        "date": "2025-03-28",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-04-27",
+    "restoredOn": "2025-04-07",
+    "followers": 50
+  },
+  {
+    "id": "ledger-060",
+    "title": "Historical drain record · Unnamed lane",
+    "type": "drain",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1302992347-0"
+    ],
+    "start": "2025-03-05",
+    "end": "2025-03-21",
+    "actualEnd": "2025-03-23",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-060",
+    "delays": [
+      {
+        "date": "2025-03-21",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-04-20",
+    "restoredOn": "2025-03-31",
+    "followers": 53
+  },
+  {
+    "id": "ledger-061",
+    "title": "Historical relay record · Netaji Nagar Main Road",
+    "type": "relay",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1302995533-0"
+    ],
+    "start": "2025-02-25",
+    "end": "2025-03-14",
+    "actualEnd": "2025-03-22",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-061",
+    "delays": [
+      {
+        "date": "2025-03-14",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-04-13",
+    "restoredOn": "2025-04-03",
+    "followers": 5
+  },
+  {
+    "id": "ledger-062",
+    "title": "Historical resurface record · Netaji Nagar Main Road",
+    "type": "resurface",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1302995533-1"
+    ],
+    "start": "2025-02-17",
+    "end": "2025-03-07",
+    "actualEnd": "2025-03-09",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-062",
+    "delays": [
+      {
+        "date": "2025-03-07",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-04-06",
+    "restoredOn": "2025-03-20",
+    "followers": 43
+  },
+  {
+    "id": "ledger-063",
+    "title": "Historical pipeline record · Netaji Nagar Main Road",
+    "type": "pipeline",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1302995533-2"
+    ],
+    "start": "2025-02-09",
+    "end": "2025-02-28",
+    "actualEnd": "2025-03-03",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-063",
+    "delays": [
+      {
+        "date": "2025-02-28",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-03-30",
+    "restoredOn": "2025-03-13",
+    "followers": 0
+  },
+  {
+    "id": "ledger-064",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1303004993-0"
+    ],
+    "start": "2025-02-01",
+    "end": "2025-02-21",
+    "actualEnd": "2025-03-07",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-064",
+    "delays": [
+      {
+        "date": "2025-02-21",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-03-23",
+    "restoredOn": "2025-03-16",
+    "followers": 63
+  },
+  {
+    "id": "ledger-065",
+    "title": "Historical cable record · 6th Street",
+    "type": "cable",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1303202173-0"
+    ],
+    "start": "2025-02-09",
+    "end": "2025-02-14",
+    "actualEnd": "2025-02-16",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-065",
+    "delays": [
+      {
+        "date": "2025-02-14",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-03-16",
+    "restoredOn": "2025-02-24",
+    "followers": 42
+  },
+  {
+    "id": "ledger-066",
+    "title": "Historical drain record · 6th Street",
+    "type": "drain",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1303202173-1"
+    ],
+    "start": "2025-02-01",
+    "end": "2025-02-07",
+    "actualEnd": "2025-02-14",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-066",
+    "delays": [
+      {
+        "date": "2025-02-07",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-03-09",
+    "restoredOn": "2025-02-26",
+    "followers": 75
+  },
+  {
+    "id": "ledger-067",
+    "title": "Historical relay record · Thiruvalluvar Road",
+    "type": "relay",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1311723470-2"
+    ],
+    "start": "2025-01-24",
+    "end": "2025-01-31",
+    "actualEnd": "2025-01-31",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-067",
+    "delays": [],
+    "restorationDue": "2025-03-02",
+    "restoredOn": "2025-02-11",
+    "followers": 20
+  },
+  {
+    "id": "ledger-068",
+    "title": "Historical resurface record · Thiruvalluvar Road",
+    "type": "resurface",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1311723470-3"
+    ],
+    "start": "2025-01-16",
+    "end": "2025-01-24",
+    "actualEnd": "2025-01-26",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-068",
+    "delays": [
+      {
+        "date": "2025-01-24",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-02-23",
+    "restoredOn": "2025-02-05",
+    "followers": 13
+  },
+  {
+    "id": "ledger-069",
+    "title": "Historical pipeline record · Thiruvalluvar Road",
+    "type": "pipeline",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1311723470-4"
+    ],
+    "start": "2025-01-08",
+    "end": "2025-01-17",
+    "actualEnd": "2025-01-18",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-069",
+    "delays": [
+      {
+        "date": "2025-01-17",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-02-16",
+    "restoredOn": "2025-01-27",
+    "followers": 44
+  },
+  {
+    "id": "ledger-070",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131425287-0"
+    ],
+    "start": "2024-12-31",
+    "end": "2025-01-10",
+    "actualEnd": "2025-01-15",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-070",
+    "delays": [
+      {
+        "date": "2025-01-10",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-02-09",
+    "restoredOn": "2025-01-23",
+    "followers": 48
+  },
+  {
+    "id": "ledger-071",
+    "title": "Historical cable record · East Coast Road",
+    "type": "cable",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131884970-0"
+    ],
+    "start": "2024-12-23",
+    "end": "2025-01-03",
+    "actualEnd": "2025-01-11",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-071",
+    "delays": [
+      {
+        "date": "2025-01-03",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-02-02",
+    "restoredOn": "2025-01-23",
+    "followers": 23
+  },
+  {
+    "id": "ledger-072",
+    "title": "Historical drain record · East Coast Road",
+    "type": "drain",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131884970-1"
+    ],
+    "start": "2024-12-15",
+    "end": "2024-12-27",
+    "actualEnd": "2024-12-29",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-072",
+    "delays": [
+      {
+        "date": "2024-12-27",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-01-26",
+    "restoredOn": "2025-01-09",
+    "followers": 66
+  },
+  {
+    "id": "ledger-073",
+    "title": "Historical relay record · East Coast Road",
+    "type": "relay",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131884970-2"
+    ],
+    "start": "2024-12-07",
+    "end": "2024-12-20",
+    "actualEnd": "2024-12-21",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-073",
+    "delays": [
+      {
+        "date": "2024-12-20",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-01-19",
+    "restoredOn": "2024-12-31",
+    "followers": 66
+  },
+  {
+    "id": "ledger-074",
+    "title": "Historical resurface record · East Coast Road",
+    "type": "resurface",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131884970-3"
+    ],
+    "start": "2024-11-29",
+    "end": "2024-12-13",
+    "actualEnd": "2024-12-16",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-074",
+    "delays": [
+      {
+        "date": "2024-12-13",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-01-12",
+    "restoredOn": "2024-12-25",
+    "followers": 52
+  },
+  {
+    "id": "ledger-075",
+    "title": "Historical pipeline record · East Coast Road",
+    "type": "pipeline",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131884970-4"
+    ],
+    "start": "2024-11-21",
+    "end": "2024-12-06",
+    "actualEnd": "2024-12-04",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-075",
+    "delays": [],
+    "restorationDue": "2025-01-05",
+    "restoredOn": "2024-12-12",
+    "followers": 37
+  },
+  {
+    "id": "ledger-076",
+    "title": "Historical cut record · East Coast Road",
+    "type": "cut",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131884970-5"
+    ],
+    "start": "2024-11-13",
+    "end": "2024-11-29",
+    "actualEnd": "2024-11-28",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-076",
+    "delays": [],
+    "restorationDue": "2024-12-29",
+    "restoredOn": "2024-12-10",
+    "followers": 20
+  },
+  {
+    "id": "ledger-077",
+    "title": "Historical cable record · East Coast Road",
+    "type": "cable",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131884970-6"
+    ],
+    "start": "2024-11-05",
+    "end": "2024-11-22",
+    "actualEnd": "2024-11-26",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-077",
+    "delays": [
+      {
+        "date": "2024-11-22",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2024-12-22",
+    "restoredOn": "2024-12-07",
+    "followers": 79
+  },
+  {
+    "id": "ledger-078",
+    "title": "Historical drain record · East Coast Road",
+    "type": "drain",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131884970-7"
+    ],
+    "start": "2024-10-28",
+    "end": "2024-11-15",
+    "actualEnd": "2024-11-18",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-078",
+    "delays": [
+      {
+        "date": "2024-11-15",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2024-12-15",
+    "restoredOn": "2024-11-28",
+    "followers": 64
+  },
+  {
+    "id": "ledger-079",
+    "title": "Historical relay record · East Coast Road",
+    "type": "relay",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131884970-8"
+    ],
+    "start": "2024-10-20",
+    "end": "2024-11-08",
+    "actualEnd": "2024-11-10",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-079",
+    "delays": [
+      {
+        "date": "2024-11-08",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2024-12-08",
+    "restoredOn": "2024-11-19",
+    "followers": 30
+  },
+  {
+    "id": "ledger-080",
+    "title": "Historical resurface record · East Coast Road",
+    "type": "resurface",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131884973-0"
+    ],
+    "start": "2024-10-12",
+    "end": "2024-11-01",
+    "actualEnd": "2024-11-03",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-080",
+    "delays": [
+      {
+        "date": "2024-11-01",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2024-12-01",
+    "restoredOn": "2024-11-11",
+    "followers": 32
+  },
+  {
+    "id": "ledger-081",
+    "title": "Historical pipeline record · Tiruvalluvar Nagar 1st Avenue",
+    "type": "pipeline",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-131884979-0"
+    ],
+    "start": "2025-07-27",
+    "end": "2025-08-01",
+    "actualEnd": "2025-07-31",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-081",
+    "delays": [],
+    "restorationDue": "2025-08-31",
+    "restoredOn": "2025-08-12",
+    "followers": 27
+  },
+  {
+    "id": "ledger-082",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1337199585-0"
+    ],
+    "start": "2025-07-19",
+    "end": "2025-07-25",
+    "actualEnd": "2025-08-05",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-082",
+    "delays": [
+      {
+        "date": "2025-07-25",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-24",
+    "restoredOn": "2025-08-16",
+    "followers": 78
+  },
+  {
+    "id": "ledger-083",
+    "title": "Historical cable record · Unnamed lane",
+    "type": "cable",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1342429422-0"
+    ],
+    "start": "2025-07-11",
+    "end": "2025-07-18",
+    "actualEnd": "2025-07-19",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-083",
+    "delays": [
+      {
+        "date": "2025-07-18",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-17",
+    "restoredOn": "2025-07-29",
+    "followers": 35
+  },
+  {
+    "id": "ledger-084",
+    "title": "Historical drain record · Unnamed lane",
+    "type": "drain",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1355241484-0"
+    ],
+    "start": "2025-07-03",
+    "end": "2025-07-11",
+    "actualEnd": "2025-07-15",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-084",
+    "delays": [
+      {
+        "date": "2025-07-11",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-10",
+    "restoredOn": "2025-07-24",
+    "followers": 53
+  },
+  {
+    "id": "ledger-085",
+    "title": "Historical relay record · Thiruvalluvar Road",
+    "type": "relay",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1369942181-0"
+    ],
+    "start": "2025-06-25",
+    "end": "2025-07-04",
+    "actualEnd": "2025-07-06",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-085",
+    "delays": [
+      {
+        "date": "2025-07-04",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-08-03",
+    "restoredOn": "2025-07-14",
+    "followers": 42
+  },
+  {
+    "id": "ledger-086",
+    "title": "Historical resurface record · Unnamed lane",
+    "type": "resurface",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1370815597-0"
+    ],
+    "start": "2025-06-17",
+    "end": "2025-06-27",
+    "actualEnd": "2025-06-27",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-086",
+    "delays": [],
+    "restorationDue": "2025-07-27",
+    "restoredOn": "2025-07-09",
+    "followers": 29
+  },
+  {
+    "id": "ledger-087",
+    "title": "Historical pipeline record · Unnamed lane",
+    "type": "pipeline",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1370815597-1"
+    ],
+    "start": "2025-06-09",
+    "end": "2025-06-20",
+    "actualEnd": "2025-06-20",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-087",
+    "delays": [],
+    "restorationDue": "2025-07-20",
+    "restoredOn": "2025-07-01",
+    "followers": 59
+  },
+  {
+    "id": "ledger-088",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-138294770-0"
+    ],
+    "start": "2025-06-01",
+    "end": "2025-06-13",
+    "actualEnd": "2025-06-12",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-088",
+    "delays": [],
+    "restorationDue": "2025-07-13",
+    "restoredOn": "2025-06-22",
+    "followers": 15
+  },
+  {
+    "id": "ledger-089",
+    "title": "Historical cable record · Unnamed lane",
+    "type": "cable",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1413438973-0"
+    ],
+    "start": "2025-05-24",
+    "end": "2025-06-06",
+    "actualEnd": "2025-06-06",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-089",
+    "delays": [],
+    "restorationDue": "2025-07-06",
+    "restoredOn": "2025-06-15",
+    "followers": 21
+  },
+  {
+    "id": "ledger-090",
+    "title": "Historical drain record · Unnamed lane",
+    "type": "drain",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1413438973-1"
+    ],
+    "start": "2025-05-16",
+    "end": "2025-05-30",
+    "actualEnd": "2025-05-30",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-090",
+    "delays": [],
+    "restorationDue": "2025-06-29",
+    "restoredOn": "2025-06-07",
+    "followers": 0
+  },
+  {
+    "id": "ledger-091",
+    "title": "Historical relay record · Unnamed lane",
+    "type": "relay",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1413438974-0"
+    ],
+    "start": "2025-05-08",
+    "end": "2025-05-23",
+    "actualEnd": "2025-05-28",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-091",
+    "delays": [
+      {
+        "date": "2025-05-23",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-22",
+    "restoredOn": "2025-06-09",
+    "followers": 60
+  },
+  {
+    "id": "ledger-092",
+    "title": "Historical resurface record · Unnamed lane",
+    "type": "resurface",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1429999668-0"
+    ],
+    "start": "2025-04-30",
+    "end": "2025-05-16",
+    "actualEnd": "2025-05-15",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-092",
+    "delays": [],
+    "restorationDue": "2025-06-15",
+    "restoredOn": "2025-05-26",
+    "followers": 0
+  },
+  {
+    "id": "ledger-093",
+    "title": "Historical pipeline record · Unnamed lane",
+    "type": "pipeline",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1455727659-0"
+    ],
+    "start": "2025-04-22",
+    "end": "2025-05-09",
+    "actualEnd": "2025-05-15",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-093",
+    "delays": [
+      {
+        "date": "2025-05-09",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-08",
+    "restoredOn": "2025-05-25",
+    "followers": 27
+  },
+  {
+    "id": "ledger-094",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1537932486-0"
+    ],
+    "start": "2025-04-14",
+    "end": "2025-05-02",
+    "actualEnd": "2025-05-07",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-094",
+    "delays": [
+      {
+        "date": "2025-05-02",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-06-01",
+    "restoredOn": "2025-05-16",
+    "followers": 1
+  },
+  {
+    "id": "ledger-095",
+    "title": "Historical cable record · Unnamed lane",
+    "type": "cable",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-1565831560-0"
+    ],
+    "start": "2025-04-06",
+    "end": "2025-04-25",
+    "actualEnd": "2025-05-01",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-095",
+    "delays": [
+      {
+        "date": "2025-04-25",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-25",
+    "restoredOn": "2025-05-09",
+    "followers": 77
+  },
+  {
+    "id": "ledger-096",
+    "title": "Historical drain record · Unnamed lane",
+    "type": "drain",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-206662902-0"
+    ],
+    "start": "2025-03-29",
+    "end": "2025-04-18",
+    "actualEnd": "2025-04-27",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-096",
+    "delays": [
+      {
+        "date": "2025-04-18",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-18",
+    "restoredOn": "2025-05-09",
+    "followers": 10
+  },
+  {
+    "id": "ledger-097",
+    "title": "Historical relay record · Kamaraj Nagar 24 th street",
+    "type": "relay",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-206662903-0"
+    ],
+    "start": "2025-04-06",
+    "end": "2025-04-11",
+    "actualEnd": "2025-04-14",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-097",
+    "delays": [
+      {
+        "date": "2025-04-11",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-11",
+    "restoredOn": "2025-04-25",
+    "followers": 51
+  },
+  {
+    "id": "ledger-098",
+    "title": "Historical resurface record · Kamaraj Nagar 24 th street",
+    "type": "resurface",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-206662903-1"
+    ],
+    "start": "2025-03-29",
+    "end": "2025-04-04",
+    "actualEnd": "2025-04-16",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-098",
+    "delays": [
+      {
+        "date": "2025-04-04",
+        "code": "contractor",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-05-04",
+    "restoredOn": "2025-04-26",
+    "followers": 6
+  },
+  {
+    "id": "ledger-099",
+    "title": "Historical pipeline record · Unnamed lane",
+    "type": "pipeline",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-206813891-1"
+    ],
+    "start": "2025-03-21",
+    "end": "2025-03-28",
+    "actualEnd": "2025-04-08",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-099",
+    "delays": [
+      {
+        "date": "2025-03-28",
+        "code": "material",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-04-27",
+    "restoredOn": "2025-04-17",
+    "followers": 29
+  },
+  {
+    "id": "ledger-100",
+    "title": "Historical cut record · Unnamed lane",
+    "type": "cut",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic completed work used only to demonstrate self-calibrating finish forecasts.",
+    "segmentIds": [
+      "osm-206813893-0"
+    ],
+    "start": "2025-03-13",
+    "end": "2025-03-21",
+    "actualEnd": "2025-04-13",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "ledger-100",
+    "delays": [
+      {
+        "date": "2025-03-21",
+        "code": "weather",
+        "note": "Synthetic calibration delay consistent with the recorded completion date."
+      }
+    ],
+    "restorationDue": "2025-04-20",
+    "restoredOn": "2025-04-21",
+    "followers": 23
+  },
+  {
+    "id": "clock-risk-relay-demo",
+    "title": "Planned road relay · Thiruvalluvar Road",
+    "type": "relay",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic planned relay used to demonstrate a slip-aware moratorium check.",
+    "segmentIds": [
+      "osm-1030689331-0"
+    ],
+    "start": "2026-10-12",
+    "end": "2026-10-20",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "clock-risk-relay-demo",
+    "delays": [],
+    "restorationDue": "2026-11-19",
+    "followers": 39
+  },
+  {
+    "id": "clock-risk-thin-demo",
+    "title": "Overdue inspection · Thiruvalluvar Road",
+    "type": "inspection",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic overdue work showing that broader fallback history can still be insufficient after conditioning on elapsed lateness.",
+    "segmentIds": [
+      "osm-1030689331-0"
+    ],
+    "start": "2026-07-20",
+    "end": "2026-08-01",
+    "status": "ongoing",
+    "flexDays": 30,
+    "projectId": "clock-risk-thin-demo",
+    "delays": [],
+    "followers": 29
+  },
+  {
     "id": "hero-relay",
     "title": "Road relay · South Mada Street",
     "type": "relay",

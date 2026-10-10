@@ -21,4 +21,9 @@
 .permit-identity{display:flex;gap:8px;margin:0 0 14px;font-size:12px;color:var(--muted)}
 .permit-identity dt{font-weight:600}
 .permit-identity dd{margin:0;font-variant-numeric:tabular-nums}
+.finish-forecast{padding:20px 0;border-top:1px solid var(--line)}
+.finish-forecast p{font-size:14px;max-width:70ch}
+.finish-forecast .small-note{font-size:12px}
+.clock-safe-start{padding:24px 0;border-top:1px solid var(--line);margin-top:24px}
+.finding-info .finding-label{color:var(--muted)}
 @media(max-height:600px) and (min-width:600px) and (max-width:899px){.registry-map>.map-note{top:28px}.registry-map .map-controls{top:52px}}

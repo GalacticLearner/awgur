@@ -15,16 +15,16 @@
   },
   {
     "id": "permit-2",
-    "title": "Utility permit 2",
+    "title": "Post-relay service connection",
     "agency": "CMWSSB",
     "type": "cut",
-    "purpose": "Synthetic utility permit for officer review.",
+    "purpose": "Synthetic permit placed just after the planned moratorium boundary to demonstrate Clock Risk.",
     "segmentIds": [
-      "osm-1155954749-1"
+      "osm-1030689331-0"
     ],
-    "start": "2026-10-20",
-    "end": "2026-10-27",
-    "flexDays": 30,
+    "start": "2027-10-23",
+    "end": "2027-10-27",
+    "flexDays": 45,
     "channel": "municipal"
   },
   {

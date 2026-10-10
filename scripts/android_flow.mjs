@@ -57,7 +57,10 @@ try {
  const heroes=JSON.parse(readFileSync('public/data/demo.json','utf8')).heroProjectIds;
  const seededWorks=JSON.parse(readFileSync('public/data/works.json','utf8'));for(const id of heroes){await go(`/project/${id}`);await expect(page.locator('.project-heading h1')).toHaveText(seededWorks.find(w=>w.id===id).title);await expect(page.getByRole('heading',{name:'Purpose & responsibility',exact:true})).toBeVisible()}
  check('All eight hero project pages render');
- await go('/about');await expect(page.locator('table tbody tr')).toHaveCount(5);check('Validation table and assumptions visible');
+ await go('/about');await expect(page.getByRole('table',{name:'Detection and baseline results'}).locator('tbody tr')).toHaveCount(5);await expect(page.getByRole('heading',{name:'Clock Risk · dates are promises',exact:true})).toBeVisible();check('Original validation and Clock Risk backtest visible');
+ await go('/project/clock-risk-relay-demo');await expect(page.locator('.finish-forecast')).toContainText('Latest likely finish');await page.locator('.finish-forecast').scrollIntoViewIfNeeded();await screenshot('clock-forecast');
+ await go('/project/clock-risk-thin-demo');await expect(page.locator('.finish-forecast')).toContainText('No finish forecast');await page.locator('.finish-forecast').scrollIntoViewIfNeeded();await screenshot('clock-insufficient');
+ await go('/review/permit-2');await expect(page.locator('.finding-label').filter({hasText:'R6'})).toHaveCount(1);await page.locator('.findings-section').scrollIntoViewIfNeeded();await screenshot('clock-review');await page.getByRole('button',{name:'Apply suggested start',exact:true}).click();await expect(page.locator('.finding-label').filter({hasText:'R6'})).toHaveCount(0);check('Clock Risk forecast, insufficient history and rechecked suggested start');
  await go('/');await page.locator('.sheet-heading').click();await expect(page.locator('.sheet-heading')).toHaveAttribute('aria-expanded','true');
  adb('shell','input','keyevent','4');await expect(page.locator('.sheet-heading')).toHaveAttribute('aria-expanded','false');
  await page.locator('.work-row').first().click();await expect(page.locator('.project-heading')).toBeVisible();

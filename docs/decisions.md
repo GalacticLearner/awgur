@@ -1,7 +1,7 @@
 # Build decisions
 
 - Start: 10 October 2026, approximately 09:37 IST. Ten-hour delivery target: 19:37 IST; plan's hard submission target: 20:30 IST.
-- Retain Works Registry / app.worksregistry.demo, Capacitor 8, Android-only APK and companion static web build.
+- Retain awgur / app.worksregistry.demo, Capacitor 8, Android-only APK and companion static web build.
 - Kotlin/Compose and React Native/Expo rejected: both require screen/map rewrites; Expo cloud builds may queue and Android map setup adds dependencies.
 - Local Node 24 is available. Java, adb and the Android SDK are absent. CI is the primary APK route; do not spend the feature budget installing Android Studio.
 - Use a restrained civic palette: warm paper, deep green, amber for schedule concerns, red for clashes. Public Sans bundled locally for offline use.
@@ -21,3 +21,9 @@
 - Network plugin adds ACCESS_NETWORK_STATE as well as INTERNET. Both are normal Android permissions and are disclosed accurately; no location permission is requested.
 - Native back uses actual router history index, with a direct-project fallback to the street root, avoiding a false exit when a judge opens a deep link.
 - On phones, selected permit details move above the pending list, keeping review actions reachable immediately.
+
+- Phase 6 runs on the clock-risk branch behind ENABLE_CLOCK_RISK. User moved the final combined web/Android video after this feature. The final video target is 2–3 minutes with a concise, novelty-led script and separate user-recorded voice-over.
+- Calibration uses 100 added completed records with a separate fixed RNG seed 601102026, preserving all 128 incumbent records byte-for-byte. Agency-specific scaled lognormal slips are rounded and capped to [-4,55] days; this is a bounded, right-skewed synthetic assumption, not a Chennai delay model. All positive slips have consistent recorded delay reasons. The generator was not tuned after validation.
+- Six added calibration records belong to BSNL; existing background records also remain eligible. Thin-agency fallback can still produce a forecast. The overdue BSNL inspection demonstrates insufficient history after filtering beyond elapsed lateness. It would be misleading to force insufficient output merely because the narrow class is small.
+- Leave-one-out calibration includes every eligible completed app record (196 in this seed), not just the 100 additions. Hindsight results and waiting cost are reported together; no external British overrun rate is imported.
+- Public name changed to awgur, all lowercase, including repository, UI, Android launcher label, npm name and delivery files. Android application id and localStorage key are retained for compatibility. Private signing material and private supplied research remain excluded.
