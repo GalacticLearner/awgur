@@ -82,5 +82,6 @@ try {
  await go('/project/approved-permit-1');await expect(page.locator('.emergency-record')).toContainText(emergencyReason);
  check('Offline cold launch, bundled data and persisted follows/reasons/emergency');
  expect(errors).toEqual([]);check('No page JavaScript exceptions');
+ await go('/');const resumedBefore=adb('shell','dumpsys','activity','activities').split(String.fromCharCode(10)).filter(line=>line.includes('ResumedActivity'));if(!resumedBefore.some(line=>line.includes('app.worksregistry.demo')))throw Error('Could not verify foreground app before root exit');adb('shell','input','keyevent','4');await expect.poll(()=>adb('shell','dumpsys','activity','activities').split(String.fromCharCode(10)).filter(line=>line.includes('ResumedActivity')).some(line=>line.includes('app.worksregistry.demo')),{timeout:15000}).toBe(false);check('Hardware back exits at root');
 } catch(error){writeFileSync(`${out}/failure.txt`,String(error));try{await screenshot('failure')}catch{writeFileSync(`${out}/failure.png`,execFileSync('adb',['exec-out','screencap','-p']))}throw error}
 finally{writeFileSync(`${out}/flow-checks.json`,JSON.stringify({checks,errors},null,2));try{adb('shell','cmd','connectivity','airplane-mode','disable');adb('shell','svc','wifi','enable');adb('shell','svc','data','enable')}catch{}await device.close()}

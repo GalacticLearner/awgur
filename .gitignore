@@ -53,3 +53,7 @@ qa/
 /docs/publishing-scope.md
 
 .impeccable/questions/
+
+.impeccable/assessment-*.md
+.impeccable/detector.json
+.impeccable/critique/
