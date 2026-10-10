@@ -25,7 +25,9 @@ try {
  await expect(page.getByRole('button',{name:'Following',exact:true})).toBeVisible();
  await page.getByLabel('Demo account').selectOption('officer');
  await page.getByLabel('Public note',{exact:true}).fill('Synthetic QA note: replacement crew confirmed for the next demo work window.');
- await page.getByLabel('Public note',{exact:true}).blur();await page.waitForTimeout(1500);
+ const inputState=adb('shell','dumpsys','input_method');writeFileSync(`${out}/keyboard-state.txt`,inputState);
+ if(/mInputShown=true|mIsInputViewShown=true/.test(inputState))adb('shell','input','keyevent','4');
+ await expect.poll(()=>page.evaluate(()=>innerHeight),{timeout:15000}).toBeGreaterThan(500);await page.waitForTimeout(1500);
  await page.getByRole('button',{name:'Save delay reason',exact:true}).click();
  await expect(page.getByText('Synthetic QA note: replacement crew confirmed for the next demo work window.',{exact:true})).toBeVisible();
  await screenshot('project-ledger');check('Resident project, follow and officer delay ledger');
