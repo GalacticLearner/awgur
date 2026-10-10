@@ -18,3 +18,5 @@ log=adb('logcat','-d')
 assert 'FATAL EXCEPTION' not in log, 'Native crash detected'
 print('Installed APK launch and synthetic disclosure verified on emulator.')
 
+
+subprocess.check_call(['node','scripts/android_flow.mjs'])

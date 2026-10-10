@@ -58,7 +58,7 @@
   {
     "id": "permit-5",
     "title": "BSNL fibre duct extension",
-    "agency": "PrivateTelecom",
+    "agency": "BSNL",
     "type": "cable",
     "purpose": "Synthetic utility permit for officer review.",
     "segmentIds": [
@@ -74,7 +74,7 @@
   {
     "id": "permit-6",
     "title": "Telecom access connection",
-    "agency": "GCC",
+    "agency": "PrivateTelecom",
     "type": "cable",
     "purpose": "Synthetic utility permit for officer review.",
     "segmentIds": [

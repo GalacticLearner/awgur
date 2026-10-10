@@ -17,3 +17,7 @@
 
 - R2 checks excavation types cut, pipeline, cable and drain. Relay/resurface protection is handled by R1; inspection is excluded. Missing project ids do not establish a same-project exemption.
 - Joint scheduling preserves the longer inclusive calendar-day duration. A flexible window may advance to the calendar moratorium expiry; only independently validated suggestions are exposed. Resurfacing sequence windows must start after the excavation ends.
+
+- Network plugin adds ACCESS_NETWORK_STATE as well as INTERNET. Both are normal Android permissions and are disclosed accurately; no location permission is requested.
+- Native back uses actual router history index, with a direct-project fallback to the street root, avoiding a false exit when a judge opens a deep link.
+- On phones, selected permit details move above the pending list, keeping review actions reachable immediately.

@@ -2488,8 +2488,8 @@
         "note": "Rain delayed the final surface course by three days."
       }
     ],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2025-11-28",
+    "restoredOn": "2025-11-19",
     "followers": 48,
     "hero": true
   },
@@ -2587,8 +2587,6 @@
     "flexDays": 30,
     "projectId": "hero-bsnl",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
     "followers": 59,
     "hero": true
   },
@@ -2630,7 +2628,7 @@
     "flexDays": 30,
     "projectId": "hero-resurface",
     "delays": [],
-    "restorationDue": "2026-02-07",
+    "restorationDue": "2027-02-21",
     "followers": 41,
     "hero": true
   },

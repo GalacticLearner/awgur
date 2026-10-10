@@ -1,0 +1,3 @@
+import { Component } from 'react';
+import type { ReactNode,ErrorInfo } from 'react';
+export class ErrorBoundary extends Component<{children:ReactNode},{failed:boolean}>{state={failed:false};static getDerivedStateFromError(){return {failed:true}}componentDidCatch(error:Error,info:ErrorInfo){console.error('Registry render failed',error,info)}render(){return this.state.failed?<main className="page"><h1>The registry could not open</h1><p>Reload to restore the bundled demo. Saved entries remain on this device.</p><button className="primary" onClick={()=>window.location.reload()}>Reload registry</button></main>:this.props.children}}

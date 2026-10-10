@@ -16,8 +16,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-01",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-10-13",
+    "restoredOn": "2026-10-03",
     "followers": 56
   },
   {
@@ -37,8 +37,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-02",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-09-12",
+    "restoredOn": "2026-09-02",
     "followers": 33
   },
   {
@@ -58,8 +58,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-03",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-12",
+    "restoredOn": "2026-08-02",
     "followers": 12
   },
   {
@@ -79,8 +79,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-04",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-07-13",
+    "restoredOn": "2026-07-03",
     "followers": 22
   },
   {
@@ -100,8 +100,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-05",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-06-12",
+    "restoredOn": "2026-06-02",
     "followers": 31
   },
   {
@@ -121,8 +121,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-06",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-05-13",
+    "restoredOn": "2026-05-03",
     "followers": 27
   },
   {
@@ -142,8 +142,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-07",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-04-12",
+    "restoredOn": "2026-04-02",
     "followers": 17
   },
   {
@@ -163,8 +163,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-08",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-03-15",
+    "restoredOn": "2026-03-05",
     "followers": 48
   },
   {
@@ -184,8 +184,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-09",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-02-12",
+    "restoredOn": "2026-02-02",
     "followers": 22
   },
   {
@@ -205,8 +205,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-10",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-01-12",
+    "restoredOn": "2026-01-02",
     "followers": 31
   },
   {
@@ -226,8 +226,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-11",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2025-12-13",
+    "restoredOn": "2025-12-03",
     "followers": 0
   },
   {
@@ -247,8 +247,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_positive-12",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-10-13",
+    "restoredOn": "2026-10-03",
     "followers": 40
   },
   {
@@ -268,8 +268,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-01",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2025-11-14",
+    "restoredOn": "2025-11-02",
     "followers": 31
   },
   {
@@ -289,8 +289,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-02",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-14",
+    "restoredOn": "2026-08-02",
     "followers": 17
   },
   {
@@ -310,8 +310,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-03",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-14",
+    "restoredOn": "2026-08-02",
     "followers": 68
   },
   {
@@ -331,8 +331,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-04",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2025-10-15",
+    "restoredOn": "2025-10-03",
     "followers": 41
   },
   {
@@ -352,8 +352,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-05",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-14",
+    "restoredOn": "2026-08-02",
     "followers": 57
   },
   {
@@ -373,8 +373,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-06",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-14",
+    "restoredOn": "2026-08-02",
     "followers": 40
   },
   {
@@ -394,8 +394,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-07",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2025-09-14",
+    "restoredOn": "2025-09-02",
     "followers": 57
   },
   {
@@ -415,8 +415,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-08",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-14",
+    "restoredOn": "2026-08-02",
     "followers": 30
   },
   {
@@ -436,8 +436,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-09",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-14",
+    "restoredOn": "2026-08-02",
     "followers": 42
   },
   {
@@ -457,8 +457,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-10",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2025-11-14",
+    "restoredOn": "2025-11-02",
     "followers": 3
   },
   {
@@ -478,8 +478,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-11",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-14",
+    "restoredOn": "2026-08-02",
     "followers": 29
   },
   {
@@ -499,8 +499,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_negative-12",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-14",
+    "restoredOn": "2026-08-02",
     "followers": 64
   },
   {
@@ -520,8 +520,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_emergency-01",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-09-14",
+    "restoredOn": "2026-09-02",
     "followers": 58
   },
   {
@@ -541,8 +541,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_emergency-02",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-14",
+    "restoredOn": "2026-08-02",
     "followers": 11
   },
   {
@@ -562,8 +562,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_emergency-03",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-07-15",
+    "restoredOn": "2026-07-03",
     "followers": 18
   },
   {
@@ -583,8 +583,8 @@
     "flexDays": 30,
     "projectId": "fixture-r1_emergency-04",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-06-14",
+    "restoredOn": "2026-06-02",
     "followers": 72
   },
   {
@@ -604,8 +604,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-01",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-14",
+    "restoredOn": "2026-11-02",
     "followers": 1
   },
   {
@@ -625,8 +625,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-02",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-06",
+    "restoredOn": "2026-10-25",
     "followers": 29
   },
   {
@@ -646,8 +646,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-03",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-10-29",
+    "restoredOn": "2026-10-17",
     "followers": 63
   },
   {
@@ -667,8 +667,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-04",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-10-21",
+    "restoredOn": "2026-10-09",
     "followers": 5
   },
   {
@@ -688,8 +688,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-05",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-10-13",
+    "restoredOn": "2026-10-01",
     "followers": 28
   },
   {
@@ -709,8 +709,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-06",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-10-05",
+    "restoredOn": "2026-09-23",
     "followers": 54
   },
   {
@@ -730,8 +730,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-07",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-09-27",
+    "restoredOn": "2026-09-15",
     "followers": 77
   },
   {
@@ -751,8 +751,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-08",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-09-19",
+    "restoredOn": "2026-09-07",
     "followers": 63
   },
   {
@@ -772,8 +772,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-09",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-09-11",
+    "restoredOn": "2026-08-30",
     "followers": 68
   },
   {
@@ -793,8 +793,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-10",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-09-03",
+    "restoredOn": "2026-08-22",
     "followers": 36
   },
   {
@@ -814,8 +814,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-11",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-26",
+    "restoredOn": "2026-08-14",
     "followers": 1
   },
   {
@@ -835,8 +835,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_positive-12",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-08-16",
+    "restoredOn": "2026-08-04",
     "followers": 68
   },
   {
@@ -856,8 +856,8 @@
     "flexDays": 30,
     "projectId": "same-project",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 3
   },
   {
@@ -877,8 +877,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-02",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-06-07",
+    "restoredOn": "2026-05-26",
     "followers": 75
   },
   {
@@ -898,8 +898,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-03",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 63
   },
   {
@@ -919,8 +919,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-04",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 45
   },
   {
@@ -940,8 +940,8 @@
     "flexDays": 30,
     "projectId": "same-project",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 27
   },
   {
@@ -961,8 +961,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-06",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-06-07",
+    "restoredOn": "2026-05-26",
     "followers": 7
   },
   {
@@ -982,8 +982,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-07",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 33
   },
   {
@@ -1003,8 +1003,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-08",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 22
   },
   {
@@ -1024,8 +1024,8 @@
     "flexDays": 30,
     "projectId": "same-project",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 78
   },
   {
@@ -1045,8 +1045,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-10",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-06-07",
+    "restoredOn": "2026-05-26",
     "followers": 69
   },
   {
@@ -1066,8 +1066,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-11",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 60
   },
   {
@@ -1087,8 +1087,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-12",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 16
   },
   {
@@ -1108,8 +1108,8 @@
     "flexDays": 30,
     "projectId": "same-project",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 65
   },
   {
@@ -1129,8 +1129,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-14",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-06-07",
+    "restoredOn": "2026-05-26",
     "followers": 38
   },
   {
@@ -1150,8 +1150,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-15",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 14
   },
   {
@@ -1171,8 +1171,8 @@
     "flexDays": 30,
     "projectId": "fixture-r2_negative-16",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-21",
+    "restoredOn": "2026-11-09",
     "followers": 18
   },
   {
@@ -1191,8 +1191,7 @@
     "flexDays": 10,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-25",
     "followers": 60
   },
   {
@@ -1211,8 +1210,7 @@
     "flexDays": 10,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-25",
     "followers": 9
   },
   {
@@ -1231,8 +1229,7 @@
     "flexDays": 10,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-25",
     "followers": 47
   },
   {
@@ -1251,8 +1248,7 @@
     "flexDays": 10,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-25",
     "followers": 32
   },
   {
@@ -1271,8 +1267,7 @@
     "flexDays": 10,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-25",
     "followers": 56
   },
   {
@@ -1291,8 +1286,7 @@
     "flexDays": 10,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-11-25",
     "followers": 12
   },
   {
@@ -1311,8 +1305,7 @@
     "flexDays": 0,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-12-15",
     "followers": 46
   },
   {
@@ -1331,8 +1324,7 @@
     "flexDays": 0,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-12-15",
     "followers": 11
   },
   {
@@ -1351,8 +1343,7 @@
     "flexDays": 0,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-12-15",
     "followers": 26
   },
   {
@@ -1371,8 +1362,7 @@
     "flexDays": 0,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-12-15",
     "followers": 65
   },
   {
@@ -1391,8 +1381,7 @@
     "flexDays": 0,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-12-15",
     "followers": 15
   },
   {
@@ -1411,8 +1400,7 @@
     "flexDays": 0,
     "projectId": "bundle-fixture",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2026-12-15",
     "followers": 30
   },
   {
@@ -1431,8 +1419,7 @@
     "flexDays": 0,
     "projectId": "no-bundle",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2027-04-16",
     "followers": 74
   },
   {
@@ -1451,8 +1438,7 @@
     "flexDays": 0,
     "projectId": "no-bundle",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2027-04-16",
     "followers": 79
   },
   {
@@ -1471,8 +1457,7 @@
     "flexDays": 0,
     "projectId": "no-bundle",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2027-04-16",
     "followers": 76
   },
   {
@@ -1491,8 +1476,7 @@
     "flexDays": 0,
     "projectId": "no-bundle",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2027-04-16",
     "followers": 24
   },
   {
@@ -1511,8 +1495,7 @@
     "flexDays": 0,
     "projectId": "no-bundle",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2027-04-16",
     "followers": 27
   },
   {
@@ -1531,8 +1514,7 @@
     "flexDays": 0,
     "projectId": "no-bundle",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2027-04-16",
     "followers": 28
   },
   {
@@ -1551,8 +1533,7 @@
     "flexDays": 0,
     "projectId": "no-bundle",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2027-04-16",
     "followers": 55
   },
   {
@@ -1571,8 +1552,7 @@
     "flexDays": 0,
     "projectId": "no-bundle",
     "delays": [],
-    "restorationDue": "2026-02-07",
-    "restoredOn": "2026-02-01",
+    "restorationDue": "2027-04-16",
     "followers": 17
   }
 ]
