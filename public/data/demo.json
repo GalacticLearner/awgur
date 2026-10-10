@@ -1,0 +1,19 @@
+{
+  "today": "2026-10-10",
+  "heroStreetId": "osm-27442374-0",
+  "heroStreetName": "South Mada Street",
+  "heroProjectIds": [
+    "hero-relay",
+    "hero-water",
+    "hero-cable",
+    "hero-drain",
+    "hero-bsnl",
+    "hero-restored",
+    "hero-resurface",
+    "hero-long-title"
+  ],
+  "heroPermitId": "permit-1",
+  "seed": 100102026,
+  "backgroundCount": 120,
+  "groundTruthCount": 76
+}

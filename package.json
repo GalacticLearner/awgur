@@ -13,7 +13,8 @@
     "android:open": "cap open android",
     "build": "tsc -b && vite build",
     "android:run": "npm run android:sync && cap run android",
-    "dev": "vite"
+    "dev": "vite",
+    "data:check": "node scripts/check_data.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.3",

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "permit-1",
+    "title": "New water service connection",
+    "agency": "CMWSSB",
+    "type": "cut",
+    "purpose": "Connect a new water service and coordinate the trench with scheduled cable work. Synthetic permit.",
+    "segmentIds": [
+      "osm-27442374-0"
+    ],
+    "start": "2026-10-15",
+    "end": "2026-10-22",
+    "flexDays": 60,
+    "channel": "municipal"
+  },
+  {
+    "id": "permit-2",
+    "title": "Utility permit 2",
+    "agency": "CMWSSB",
+    "type": "cut",
+    "purpose": "Synthetic utility permit for officer review.",
+    "segmentIds": [
+      "osm-1155954749-1"
+    ],
+    "start": "2026-10-20",
+    "end": "2026-10-27",
+    "flexDays": 30,
+    "channel": "municipal"
+  },
+  {
+    "id": "permit-3",
+    "title": "Utility permit 3",
+    "agency": "Tangedco",
+    "type": "drain",
+    "purpose": "Synthetic utility permit for officer review.",
+    "segmentIds": [
+      "osm-1210669639-0"
+    ],
+    "start": "2026-10-25",
+    "end": "2026-11-01",
+    "flexDays": 30,
+    "channel": "municipal"
+  },
+  {
+    "id": "permit-4",
+    "title": "Utility permit 4",
+    "agency": "BSNL",
+    "type": "cut",
+    "purpose": "Synthetic utility permit for officer review.",
+    "segmentIds": [
+      "osm-1265672974-0"
+    ],
+    "start": "2026-10-30",
+    "end": "2026-11-06",
+    "flexDays": 30,
+    "channel": "municipal"
+  },
+  {
+    "id": "permit-5",
+    "title": "BSNL fibre duct extension",
+    "agency": "PrivateTelecom",
+    "type": "cable",
+    "purpose": "Synthetic utility permit for officer review.",
+    "segmentIds": [
+      "osm-1303202173-1"
+    ],
+    "start": "2026-11-04",
+    "end": "2026-11-11",
+    "flexDays": 30,
+    "channel": "telecom_row",
+    "receivedOn": "2026-09-22",
+    "decisionDeadline": "2026-10-22"
+  },
+  {
+    "id": "permit-6",
+    "title": "Telecom access connection",
+    "agency": "GCC",
+    "type": "cable",
+    "purpose": "Synthetic utility permit for officer review.",
+    "segmentIds": [
+      "osm-1342429422-0"
+    ],
+    "start": "2026-11-09",
+    "end": "2026-11-16",
+    "flexDays": 30,
+    "channel": "telecom_row",
+    "receivedOn": "2026-09-22",
+    "decisionDeadline": "2026-10-22"
+  }
+]

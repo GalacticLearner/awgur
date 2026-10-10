@@ -1,0 +1,2663 @@
+[
+  {
+    "id": "background-001",
+    "title": "Utility inspection · East Coast Road",
+    "type": "inspection",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1149854618-0"
+    ],
+    "start": "2026-12-30",
+    "end": "2027-01-05",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-001",
+    "delays": [],
+    "restorationDue": "2027-02-04",
+    "followers": 22
+  },
+  {
+    "id": "background-002",
+    "title": "Water main renewal · Vasudeva Nagar",
+    "type": "pipeline",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30280963-0"
+    ],
+    "start": "2025-03-28",
+    "end": "2025-04-13",
+    "actualEnd": "2025-04-15",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-002",
+    "delays": [],
+    "restorationDue": "2025-05-13",
+    "restoredOn": "2025-05-01",
+    "followers": 50
+  },
+  {
+    "id": "background-003",
+    "title": "Water main renewal · 4th Main Road",
+    "type": "pipeline",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-218162637-1"
+    ],
+    "start": "2026-05-25",
+    "end": "2026-06-06",
+    "actualEnd": "2026-06-06",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-003",
+    "delays": [],
+    "restorationDue": "2026-07-06",
+    "restoredOn": "2026-06-24",
+    "followers": 9
+  },
+  {
+    "id": "background-004",
+    "title": "Stormwater drain repair · Devendra Nagar Main Road",
+    "type": "drain",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30337595-3"
+    ],
+    "start": "2025-03-27",
+    "end": "2025-04-19",
+    "actualEnd": "2025-04-20",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-004",
+    "delays": [],
+    "restorationDue": "2025-05-19",
+    "restoredOn": "2025-05-07",
+    "followers": 37
+  },
+  {
+    "id": "background-005",
+    "title": "Road relay · Unnamed lane",
+    "type": "relay",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-993587959-1"
+    ],
+    "start": "2026-04-09",
+    "end": "2026-04-27",
+    "actualEnd": "2026-04-29",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-005",
+    "delays": [],
+    "restorationDue": "2026-05-27",
+    "restoredOn": "2026-05-15",
+    "followers": 35
+  },
+  {
+    "id": "background-006",
+    "title": "Road relay · Balakrishnan Road",
+    "type": "relay",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27442371-0"
+    ],
+    "start": "2026-09-18",
+    "end": "2026-09-25",
+    "actualEnd": "2026-09-29",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-006",
+    "delays": [],
+    "restorationDue": "2026-10-25",
+    "restoredOn": "2026-10-13",
+    "followers": 17
+  },
+  {
+    "id": "background-007",
+    "title": "Road resurfacing · Unnamed lane",
+    "type": "resurface",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1246265396-0"
+    ],
+    "start": "2024-12-21",
+    "end": "2025-01-07",
+    "actualEnd": "2025-01-14",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-007",
+    "delays": [],
+    "restorationDue": "2025-02-06",
+    "restoredOn": "2025-01-25",
+    "followers": 29
+  },
+  {
+    "id": "background-008",
+    "title": "Underground cable replacement · Vasudeva Nagar Ext",
+    "type": "cable",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30280957-0"
+    ],
+    "start": "2025-12-06",
+    "end": "2025-12-21",
+    "actualEnd": "2025-12-26",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-008",
+    "delays": [],
+    "restorationDue": "2026-01-20",
+    "restoredOn": "2026-01-08",
+    "followers": 33
+  },
+  {
+    "id": "background-009",
+    "title": "Underground cable replacement · Kamaraj Nagar 24 th street",
+    "type": "cable",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-206662903-1"
+    ],
+    "start": "2024-10-21",
+    "end": "2024-11-03",
+    "actualEnd": "2024-11-05",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-009",
+    "delays": [],
+    "restorationDue": "2024-12-03",
+    "restoredOn": "2024-11-21",
+    "followers": 23
+  },
+  {
+    "id": "background-010",
+    "title": "Service connection cut · Vasudeva Nagar Ext",
+    "type": "cut",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30280957-0"
+    ],
+    "start": "2025-05-06",
+    "end": "2025-05-25",
+    "actualEnd": "2025-05-25",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-010",
+    "delays": [],
+    "restorationDue": "2025-06-24",
+    "restoredOn": "2025-06-12",
+    "followers": 1
+  },
+  {
+    "id": "background-011",
+    "title": "Road relay · 6th Street",
+    "type": "relay",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30336090-0"
+    ],
+    "start": "2025-05-20",
+    "end": "2025-06-10",
+    "actualEnd": "2025-06-13",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-011",
+    "delays": [],
+    "restorationDue": "2025-07-10",
+    "restoredOn": "2025-06-28",
+    "followers": 21
+  },
+  {
+    "id": "background-012",
+    "title": "Service connection cut · Unnamed lane",
+    "type": "cut",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-131425287-0"
+    ],
+    "start": "2025-07-19",
+    "end": "2025-08-02",
+    "actualEnd": "2025-08-05",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-012",
+    "delays": [],
+    "restorationDue": "2025-09-01",
+    "restoredOn": "2025-08-20",
+    "followers": 36
+  },
+  {
+    "id": "background-013",
+    "title": "Stormwater drain repair · Ganesh Nagar 1st Street",
+    "type": "drain",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30312942-1"
+    ],
+    "start": "2025-03-04",
+    "end": "2025-03-20",
+    "actualEnd": "2025-03-26",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-013",
+    "delays": [],
+    "restorationDue": "2025-04-19",
+    "restoredOn": "2025-04-07",
+    "followers": 8
+  },
+  {
+    "id": "background-014",
+    "title": "Underground cable replacement · Vasudeva Nagar Ext",
+    "type": "cable",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30280957-1"
+    ],
+    "start": "2027-01-03",
+    "end": "2027-01-14",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-014",
+    "delays": [],
+    "restorationDue": "2027-02-13",
+    "followers": 72
+  },
+  {
+    "id": "background-015",
+    "title": "Underground cable replacement · Tiruvalluvar Nagar 1st Avenue",
+    "type": "cable",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27880872-8"
+    ],
+    "start": "2026-05-31",
+    "end": "2026-06-19",
+    "actualEnd": "2026-06-20",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-015",
+    "delays": [],
+    "restorationDue": "2026-07-19",
+    "restoredOn": "2026-07-07",
+    "followers": 26
+  },
+  {
+    "id": "background-016",
+    "title": "Water main renewal · 4th Seaward Road",
+    "type": "pipeline",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281228-1"
+    ],
+    "start": "2025-08-04",
+    "end": "2025-08-20",
+    "actualEnd": "2025-08-24",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-016",
+    "delays": [],
+    "restorationDue": "2025-09-19",
+    "restoredOn": "2025-09-07",
+    "followers": 66
+  },
+  {
+    "id": "background-017",
+    "title": "Water main renewal · Vasudeva Nagar Ext",
+    "type": "pipeline",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30280957-0"
+    ],
+    "start": "2024-11-15",
+    "end": "2024-11-21",
+    "actualEnd": "2024-11-24",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-017",
+    "delays": [],
+    "restorationDue": "2024-12-21",
+    "restoredOn": "2024-12-09",
+    "followers": 45
+  },
+  {
+    "id": "background-018",
+    "title": "Service connection cut · 17th Street",
+    "type": "cut",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281226-0"
+    ],
+    "start": "2026-07-29",
+    "end": "2026-08-16",
+    "actualEnd": "2026-08-16",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-018",
+    "delays": [],
+    "restorationDue": "2026-09-15",
+    "restoredOn": "2026-09-03",
+    "followers": 52
+  },
+  {
+    "id": "background-019",
+    "title": "Road resurfacing · Thiruvanmiyur Kuppam Beach Road",
+    "type": "resurface",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27442369-10"
+    ],
+    "start": "2026-02-21",
+    "end": "2026-03-08",
+    "actualEnd": "2026-03-10",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-019",
+    "delays": [],
+    "restorationDue": "2026-04-07",
+    "restoredOn": "2026-03-26",
+    "followers": 39
+  },
+  {
+    "id": "background-020",
+    "title": "Underground cable replacement · Tiruvalluvar Nagar 1st Avenue",
+    "type": "cable",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27880872-7"
+    ],
+    "start": "2026-10-21",
+    "end": "2026-11-07",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-020",
+    "delays": [],
+    "restorationDue": "2026-12-07",
+    "followers": 64
+  },
+  {
+    "id": "background-021",
+    "title": "Service connection cut · 10th Street",
+    "type": "cut",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281223-1"
+    ],
+    "start": "2026-03-07",
+    "end": "2026-03-28",
+    "actualEnd": "2026-04-02",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-021",
+    "delays": [],
+    "restorationDue": "2026-04-27",
+    "restoredOn": "2026-04-15",
+    "followers": 14
+  },
+  {
+    "id": "background-022",
+    "title": "Underground cable replacement · East Coast Road",
+    "type": "cable",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-131884970-3"
+    ],
+    "start": "2026-10-21",
+    "end": "2026-11-18",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-022",
+    "delays": [],
+    "restorationDue": "2026-12-18",
+    "followers": 19
+  },
+  {
+    "id": "background-023",
+    "title": "Stormwater drain repair · Unnamed lane",
+    "type": "drain",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1413438973-1"
+    ],
+    "start": "2025-01-23",
+    "end": "2025-02-13",
+    "actualEnd": "2025-02-19",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-023",
+    "delays": [],
+    "restorationDue": "2025-03-15",
+    "restoredOn": "2025-03-03",
+    "followers": 71
+  },
+  {
+    "id": "background-024",
+    "title": "Service connection cut · Mettu Street",
+    "type": "cut",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-29047589-1"
+    ],
+    "start": "2026-05-27",
+    "end": "2026-06-09",
+    "actualEnd": "2026-06-12",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-024",
+    "delays": [],
+    "restorationDue": "2026-07-09",
+    "restoredOn": "2026-06-27",
+    "followers": 21
+  },
+  {
+    "id": "background-025",
+    "title": "Water main renewal · 2nd Street",
+    "type": "pipeline",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30312945-0"
+    ],
+    "start": "2027-03-22",
+    "end": "2027-04-18",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-025",
+    "delays": [],
+    "restorationDue": "2027-05-18",
+    "followers": 18
+  },
+  {
+    "id": "background-026",
+    "title": "Water main renewal · Shanti Nagar",
+    "type": "pipeline",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30279590-1"
+    ],
+    "start": "2027-02-23",
+    "end": "2027-03-23",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-026",
+    "delays": [],
+    "restorationDue": "2027-04-22",
+    "followers": 62
+  },
+  {
+    "id": "background-027",
+    "title": "Utility inspection · Unnamed lane",
+    "type": "inspection",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30279593-0"
+    ],
+    "start": "2026-11-04",
+    "end": "2026-11-16",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-027",
+    "delays": [],
+    "restorationDue": "2026-12-16",
+    "followers": 30
+  },
+  {
+    "id": "background-028",
+    "title": "Road resurfacing · Tiruvalluvar Nagar 1st Avenue",
+    "type": "resurface",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-131884979-0"
+    ],
+    "start": "2026-06-29",
+    "end": "2026-07-13",
+    "actualEnd": "2026-07-20",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-028",
+    "delays": [],
+    "restorationDue": "2026-08-12",
+    "restoredOn": "2026-07-31",
+    "followers": 64
+  },
+  {
+    "id": "background-029",
+    "title": "Road resurfacing · Subramaniya Avenue",
+    "type": "resurface",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281954-0"
+    ],
+    "start": "2025-10-25",
+    "end": "2025-11-05",
+    "actualEnd": "2025-11-10",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-029",
+    "delays": [],
+    "restorationDue": "2025-12-05",
+    "restoredOn": "2025-11-23",
+    "followers": 56
+  },
+  {
+    "id": "background-030",
+    "title": "Road resurfacing · Unnamed lane",
+    "type": "resurface",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1116475731-0"
+    ],
+    "start": "2026-01-04",
+    "end": "2026-01-30",
+    "actualEnd": "2026-02-06",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-030",
+    "delays": [],
+    "restorationDue": "2026-03-01",
+    "restoredOn": "2026-02-17",
+    "followers": 37
+  },
+  {
+    "id": "background-031",
+    "title": "Underground cable replacement · Balakrishnan Road",
+    "type": "cable",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1188788815-2"
+    ],
+    "start": "2025-08-15",
+    "end": "2025-08-20",
+    "actualEnd": "2025-08-23",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-031",
+    "delays": [],
+    "restorationDue": "2025-09-19",
+    "restoredOn": "2025-09-07",
+    "followers": 24
+  },
+  {
+    "id": "background-032",
+    "title": "Service connection cut · Unnamed lane",
+    "type": "cut",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-206813896-2"
+    ],
+    "start": "2026-04-03",
+    "end": "2026-04-20",
+    "actualEnd": "2026-04-21",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-032",
+    "delays": [],
+    "restorationDue": "2026-05-20",
+    "restoredOn": "2026-05-08",
+    "followers": 35
+  },
+  {
+    "id": "background-033",
+    "title": "Water main renewal · East Coast Road",
+    "type": "pipeline",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-23761085-4"
+    ],
+    "start": "2025-05-10",
+    "end": "2025-05-27",
+    "actualEnd": "2025-05-31",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-033",
+    "delays": [],
+    "restorationDue": "2025-06-26",
+    "restoredOn": "2025-06-14",
+    "followers": 41
+  },
+  {
+    "id": "background-034",
+    "title": "Underground cable replacement · Unnamed lane",
+    "type": "cable",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-370708731-0"
+    ],
+    "start": "2024-10-21",
+    "end": "2024-11-16",
+    "actualEnd": "2024-11-22",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-034",
+    "delays": [],
+    "restorationDue": "2024-12-16",
+    "restoredOn": "2024-12-04",
+    "followers": 66
+  },
+  {
+    "id": "background-035",
+    "title": "Underground cable replacement · 5th East Street",
+    "type": "cable",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-28278669-2"
+    ],
+    "start": "2026-10-02",
+    "end": "2026-10-11",
+    "status": "ongoing",
+    "flexDays": 30,
+    "projectId": "background-035",
+    "delays": [],
+    "restorationDue": "2026-11-10",
+    "followers": 76
+  },
+  {
+    "id": "background-036",
+    "title": "Utility inspection · Valmiki Street",
+    "type": "inspection",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1155954749-0"
+    ],
+    "start": "2026-01-25",
+    "end": "2026-02-05",
+    "actualEnd": "2026-02-08",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-036",
+    "delays": [],
+    "restorationDue": "2026-03-07",
+    "restoredOn": "2026-02-23",
+    "followers": 79
+  },
+  {
+    "id": "background-037",
+    "title": "Underground cable replacement · Unnamed lane",
+    "type": "cable",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1269007142-0"
+    ],
+    "start": "2026-11-01",
+    "end": "2026-11-13",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-037",
+    "delays": [],
+    "restorationDue": "2026-12-13",
+    "followers": 4
+  },
+  {
+    "id": "background-038",
+    "title": "Underground cable replacement · Rajagopalan Road",
+    "type": "cable",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-29047585-0"
+    ],
+    "start": "2025-09-07",
+    "end": "2025-10-04",
+    "actualEnd": "2025-10-10",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-038",
+    "delays": [],
+    "restorationDue": "2025-11-03",
+    "restoredOn": "2025-10-22",
+    "followers": 20
+  },
+  {
+    "id": "background-039",
+    "title": "Service connection cut · 2nd Seaward Road",
+    "type": "cut",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281079-1"
+    ],
+    "start": "2027-03-17",
+    "end": "2027-03-31",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-039",
+    "delays": [],
+    "restorationDue": "2027-04-30",
+    "followers": 0
+  },
+  {
+    "id": "background-040",
+    "title": "Road relay · Unnamed lane",
+    "type": "relay",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1337199585-0"
+    ],
+    "start": "2025-07-27",
+    "end": "2025-08-19",
+    "actualEnd": "2025-08-23",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-040",
+    "delays": [],
+    "restorationDue": "2025-09-18",
+    "restoredOn": "2025-09-06",
+    "followers": 14
+  },
+  {
+    "id": "background-041",
+    "title": "Road relay · Unnamed lane",
+    "type": "relay",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30342332-2"
+    ],
+    "start": "2025-06-06",
+    "end": "2025-06-26",
+    "actualEnd": "2025-06-30",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-041",
+    "delays": [],
+    "restorationDue": "2025-07-26",
+    "restoredOn": "2025-07-14",
+    "followers": 45
+  },
+  {
+    "id": "background-042",
+    "title": "Road resurfacing · 1st Street",
+    "type": "resurface",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30312947-1"
+    ],
+    "start": "2026-05-08",
+    "end": "2026-05-15",
+    "actualEnd": "2026-05-15",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-042",
+    "delays": [],
+    "restorationDue": "2026-06-14",
+    "restoredOn": "2026-06-02",
+    "followers": 41
+  },
+  {
+    "id": "background-043",
+    "title": "Service connection cut · East Coast Road",
+    "type": "cut",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-131884970-2"
+    ],
+    "start": "2026-11-18",
+    "end": "2026-12-03",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-043",
+    "delays": [],
+    "restorationDue": "2027-01-02",
+    "followers": 37
+  },
+  {
+    "id": "background-044",
+    "title": "Road relay · Unnamed lane",
+    "type": "relay",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30280971-0"
+    ],
+    "start": "2025-08-10",
+    "end": "2025-08-27",
+    "actualEnd": "2025-08-27",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-044",
+    "delays": [],
+    "restorationDue": "2025-09-26",
+    "restoredOn": "2025-09-14",
+    "followers": 19
+  },
+  {
+    "id": "background-045",
+    "title": "Utility inspection · 4th Main Road",
+    "type": "inspection",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-23762124-1"
+    ],
+    "start": "2026-02-18",
+    "end": "2026-03-07",
+    "actualEnd": "2026-03-07",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-045",
+    "delays": [],
+    "restorationDue": "2026-04-06",
+    "restoredOn": "2026-03-25",
+    "followers": 27
+  },
+  {
+    "id": "background-046",
+    "title": "Underground cable replacement · 48th Street",
+    "type": "cable",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30336402-0"
+    ],
+    "start": "2025-12-12",
+    "end": "2026-01-07",
+    "actualEnd": "2026-01-14",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-046",
+    "delays": [],
+    "restorationDue": "2026-02-06",
+    "restoredOn": "2026-01-25",
+    "followers": 32
+  },
+  {
+    "id": "background-047",
+    "title": "Underground cable replacement · Unnamed lane",
+    "type": "cable",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-206813896-2"
+    ],
+    "start": "2024-12-08",
+    "end": "2024-12-21",
+    "actualEnd": "2024-12-22",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-047",
+    "delays": [],
+    "restorationDue": "2025-01-20",
+    "restoredOn": "2025-01-08",
+    "followers": 47
+  },
+  {
+    "id": "background-048",
+    "title": "Utility inspection · Sannadi Street",
+    "type": "inspection",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-29047590-0"
+    ],
+    "start": "2024-11-03",
+    "end": "2024-11-09",
+    "actualEnd": "2024-11-16",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-048",
+    "delays": [],
+    "restorationDue": "2024-12-09",
+    "restoredOn": "2024-11-27",
+    "followers": 48
+  },
+  {
+    "id": "background-049",
+    "title": "Road relay · Balakrishnan Road",
+    "type": "relay",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27442371-4"
+    ],
+    "start": "2027-03-08",
+    "end": "2027-04-03",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-049",
+    "delays": [],
+    "restorationDue": "2027-05-03",
+    "followers": 32
+  },
+  {
+    "id": "background-050",
+    "title": "Service connection cut · 1st Seaward Link Road",
+    "type": "cut",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-534443245-0"
+    ],
+    "start": "2025-07-29",
+    "end": "2025-08-08",
+    "actualEnd": "2025-08-10",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-050",
+    "delays": [],
+    "restorationDue": "2025-09-07",
+    "restoredOn": "2025-08-26",
+    "followers": 8
+  },
+  {
+    "id": "background-051",
+    "title": "Water main renewal · 4th Seaward Road",
+    "type": "pipeline",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281228-4"
+    ],
+    "start": "2026-11-26",
+    "end": "2026-12-23",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-051",
+    "delays": [],
+    "restorationDue": "2027-01-22",
+    "followers": 4
+  },
+  {
+    "id": "background-052",
+    "title": "Water main renewal · 14th Street",
+    "type": "pipeline",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30339397-0"
+    ],
+    "start": "2026-06-01",
+    "end": "2026-06-17",
+    "actualEnd": "2026-06-20",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-052",
+    "delays": [],
+    "restorationDue": "2026-07-17",
+    "restoredOn": "2026-07-05",
+    "followers": 79
+  },
+  {
+    "id": "background-053",
+    "title": "Road relay · Unnamed lane",
+    "type": "relay",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-993592429-0"
+    ],
+    "start": "2027-02-20",
+    "end": "2027-02-26",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-053",
+    "delays": [],
+    "restorationDue": "2027-03-28",
+    "followers": 21
+  },
+  {
+    "id": "background-054",
+    "title": "Road resurfacing · Netaji Nagar Main Road",
+    "type": "resurface",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1302995533-0"
+    ],
+    "start": "2025-03-07",
+    "end": "2025-03-29",
+    "actualEnd": "2025-04-04",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-054",
+    "delays": [],
+    "restorationDue": "2025-04-28",
+    "restoredOn": "2025-04-16",
+    "followers": 73
+  },
+  {
+    "id": "background-055",
+    "title": "Service connection cut · Unnamed lane",
+    "type": "cut",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-993587945-0"
+    ],
+    "start": "2026-02-20",
+    "end": "2026-03-05",
+    "actualEnd": "2026-03-11",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-055",
+    "delays": [],
+    "restorationDue": "2026-04-04",
+    "restoredOn": "2026-03-23",
+    "followers": 67
+  },
+  {
+    "id": "background-056",
+    "title": "Stormwater drain repair · Unnamed lane",
+    "type": "drain",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1189553230-0"
+    ],
+    "start": "2026-01-10",
+    "end": "2026-01-19",
+    "actualEnd": "2026-01-25",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-056",
+    "delays": [],
+    "restorationDue": "2026-02-18",
+    "restoredOn": "2026-02-06",
+    "followers": 70
+  },
+  {
+    "id": "background-057",
+    "title": "Road relay · East Coast Road",
+    "type": "relay",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-131884970-4"
+    ],
+    "start": "2025-09-14",
+    "end": "2025-10-05",
+    "actualEnd": "2025-10-06",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-057",
+    "delays": [],
+    "restorationDue": "2025-11-04",
+    "restoredOn": "2025-10-23",
+    "followers": 7
+  },
+  {
+    "id": "background-058",
+    "title": "Water main renewal · Thiruvanmiyur Kuppam Beach Road",
+    "type": "pipeline",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27442369-9"
+    ],
+    "start": "2026-01-13",
+    "end": "2026-02-11",
+    "actualEnd": "2026-02-16",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-058",
+    "delays": [],
+    "restorationDue": "2026-03-13",
+    "restoredOn": "2026-03-01",
+    "followers": 75
+  },
+  {
+    "id": "background-059",
+    "title": "Stormwater drain repair · Shanti Nagar",
+    "type": "drain",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30279590-1"
+    ],
+    "start": "2025-02-06",
+    "end": "2025-02-23",
+    "actualEnd": "2025-02-24",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-059",
+    "delays": [],
+    "restorationDue": "2025-03-25",
+    "restoredOn": "2025-03-13",
+    "followers": 62
+  },
+  {
+    "id": "background-060",
+    "title": "Road resurfacing · Balakrishnan Road",
+    "type": "resurface",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1188788815-1"
+    ],
+    "start": "2027-03-11",
+    "end": "2027-04-03",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-060",
+    "delays": [],
+    "restorationDue": "2027-05-03",
+    "followers": 70
+  },
+  {
+    "id": "background-061",
+    "title": "Water main renewal · South Mada Street",
+    "type": "pipeline",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27442374-2"
+    ],
+    "start": "2026-02-22",
+    "end": "2026-03-07",
+    "actualEnd": "2026-03-11",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-061",
+    "delays": [],
+    "restorationDue": "2026-04-06",
+    "restoredOn": "2026-03-25",
+    "followers": 55
+  },
+  {
+    "id": "background-062",
+    "title": "Underground cable replacement · Unnamed lane",
+    "type": "cable",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-993592429-0"
+    ],
+    "start": "2025-03-03",
+    "end": "2025-03-13",
+    "actualEnd": "2025-03-15",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-062",
+    "delays": [],
+    "restorationDue": "2025-04-12",
+    "restoredOn": "2025-03-31",
+    "followers": 23
+  },
+  {
+    "id": "background-063",
+    "title": "Road resurfacing · 4th Street",
+    "type": "resurface",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281947-0"
+    ],
+    "start": "2027-03-19",
+    "end": "2027-04-06",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-063",
+    "delays": [],
+    "restorationDue": "2027-05-06",
+    "followers": 7
+  },
+  {
+    "id": "background-064",
+    "title": "Road relay · Unnamed lane",
+    "type": "relay",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1249388434-0"
+    ],
+    "start": "2026-07-18",
+    "end": "2026-08-03",
+    "actualEnd": "2026-08-04",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-064",
+    "delays": [],
+    "restorationDue": "2026-09-02",
+    "restoredOn": "2026-08-21",
+    "followers": 72
+  },
+  {
+    "id": "background-065",
+    "title": "Stormwater drain repair · 6th Street",
+    "type": "drain",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-28278665-0"
+    ],
+    "start": "2026-11-21",
+    "end": "2026-12-02",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-065",
+    "delays": [],
+    "restorationDue": "2027-01-01",
+    "followers": 78
+  },
+  {
+    "id": "background-066",
+    "title": "Utility inspection · Unnamed lane",
+    "type": "inspection",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1077883473-0"
+    ],
+    "start": "2025-02-04",
+    "end": "2025-02-12",
+    "actualEnd": "2025-02-14",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-066",
+    "delays": [],
+    "restorationDue": "2025-03-14",
+    "restoredOn": "2025-03-02",
+    "followers": 60
+  },
+  {
+    "id": "background-067",
+    "title": "Road resurfacing · Unnamed lane",
+    "type": "resurface",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30342323-1"
+    ],
+    "start": "2025-12-15",
+    "end": "2026-01-11",
+    "actualEnd": "2026-01-12",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-067",
+    "delays": [],
+    "restorationDue": "2026-02-10",
+    "restoredOn": "2026-01-29",
+    "followers": 56
+  },
+  {
+    "id": "background-068",
+    "title": "Stormwater drain repair · Thiruvalluvar Road",
+    "type": "drain",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30278599-2"
+    ],
+    "start": "2025-01-12",
+    "end": "2025-01-27",
+    "actualEnd": "2025-01-29",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-068",
+    "delays": [],
+    "restorationDue": "2025-02-26",
+    "restoredOn": "2025-02-14",
+    "followers": 74
+  },
+  {
+    "id": "background-069",
+    "title": "Underground cable replacement · Unnamed lane",
+    "type": "cable",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1210671924-0"
+    ],
+    "start": "2026-09-22",
+    "end": "2026-10-16",
+    "status": "ongoing",
+    "flexDays": 30,
+    "projectId": "background-069",
+    "delays": [],
+    "restorationDue": "2026-11-15",
+    "followers": 67
+  },
+  {
+    "id": "background-070",
+    "title": "Stormwater drain repair · Tiruvalluvar Nagar 2nd Avenue",
+    "type": "drain",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30312948-16"
+    ],
+    "start": "2026-03-11",
+    "end": "2026-03-18",
+    "actualEnd": "2026-03-20",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-070",
+    "delays": [],
+    "restorationDue": "2026-04-17",
+    "restoredOn": "2026-04-05",
+    "followers": 21
+  },
+  {
+    "id": "background-071",
+    "title": "Road resurfacing · 4th Main Road",
+    "type": "resurface",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-23762124-3"
+    ],
+    "start": "2025-05-11",
+    "end": "2025-06-08",
+    "actualEnd": "2025-06-12",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-071",
+    "delays": [],
+    "restorationDue": "2025-07-08",
+    "restoredOn": "2025-06-26",
+    "followers": 62
+  },
+  {
+    "id": "background-072",
+    "title": "Water main renewal · Ganesh Nagar 1st Street",
+    "type": "pipeline",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30312942-1"
+    ],
+    "start": "2026-02-28",
+    "end": "2026-03-26",
+    "actualEnd": "2026-03-30",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-072",
+    "delays": [],
+    "restorationDue": "2026-04-25",
+    "restoredOn": "2026-04-13",
+    "followers": 13
+  },
+  {
+    "id": "background-073",
+    "title": "Road relay · Subramaniya Avenue",
+    "type": "relay",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281954-0"
+    ],
+    "start": "2024-12-16",
+    "end": "2025-01-10",
+    "actualEnd": "2025-01-17",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-073",
+    "delays": [],
+    "restorationDue": "2025-02-09",
+    "restoredOn": "2025-01-28",
+    "followers": 42
+  },
+  {
+    "id": "background-074",
+    "title": "Utility inspection · Valmiki Street",
+    "type": "inspection",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1155954749-0"
+    ],
+    "start": "2026-03-20",
+    "end": "2026-04-06",
+    "actualEnd": "2026-04-08",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-074",
+    "delays": [],
+    "restorationDue": "2026-05-06",
+    "restoredOn": "2026-04-24",
+    "followers": 9
+  },
+  {
+    "id": "background-075",
+    "title": "Road resurfacing · 3rd Main Road",
+    "type": "resurface",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30336088-1"
+    ],
+    "start": "2025-05-20",
+    "end": "2025-06-12",
+    "actualEnd": "2025-06-13",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-075",
+    "delays": [],
+    "restorationDue": "2025-07-12",
+    "restoredOn": "2025-06-30",
+    "followers": 32
+  },
+  {
+    "id": "background-076",
+    "title": "Stormwater drain repair · 6th Street",
+    "type": "drain",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-28278665-2"
+    ],
+    "start": "2026-06-24",
+    "end": "2026-07-22",
+    "actualEnd": "2026-07-25",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-076",
+    "delays": [],
+    "restorationDue": "2026-08-21",
+    "restoredOn": "2026-08-09",
+    "followers": 0
+  },
+  {
+    "id": "background-077",
+    "title": "Road relay · Unnamed lane",
+    "type": "relay",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-206813891-1"
+    ],
+    "start": "2026-06-18",
+    "end": "2026-06-28",
+    "actualEnd": "2026-06-30",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-077",
+    "delays": [],
+    "restorationDue": "2026-07-28",
+    "restoredOn": "2026-07-16",
+    "followers": 3
+  },
+  {
+    "id": "background-078",
+    "title": "Water main renewal · South Avenue",
+    "type": "pipeline",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-23761535-2"
+    ],
+    "start": "2025-09-25",
+    "end": "2025-10-22",
+    "actualEnd": "2025-10-22",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-078",
+    "delays": [],
+    "restorationDue": "2025-11-21",
+    "restoredOn": "2025-11-09",
+    "followers": 16
+  },
+  {
+    "id": "background-079",
+    "title": "Road resurfacing · East Coast Road",
+    "type": "resurface",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1149854620-0"
+    ],
+    "start": "2027-02-03",
+    "end": "2027-02-09",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-079",
+    "delays": [],
+    "restorationDue": "2027-03-11",
+    "followers": 67
+  },
+  {
+    "id": "background-080",
+    "title": "Stormwater drain repair · Pilliyar Koil Street",
+    "type": "drain",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30339175-0"
+    ],
+    "start": "2027-03-24",
+    "end": "2027-04-12",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-080",
+    "delays": [],
+    "restorationDue": "2027-05-12",
+    "followers": 7
+  },
+  {
+    "id": "background-081",
+    "title": "Water main renewal · 3rd Main Road",
+    "type": "pipeline",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30336088-0"
+    ],
+    "start": "2025-09-09",
+    "end": "2025-09-29",
+    "actualEnd": "2025-09-29",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-081",
+    "delays": [],
+    "restorationDue": "2025-10-29",
+    "restoredOn": "2025-10-17",
+    "followers": 71
+  },
+  {
+    "id": "background-082",
+    "title": "Utility inspection · South Mada Street",
+    "type": "inspection",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27442374-2"
+    ],
+    "start": "2026-06-06",
+    "end": "2026-07-02",
+    "actualEnd": "2026-07-04",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-082",
+    "delays": [],
+    "restorationDue": "2026-08-01",
+    "restoredOn": "2026-07-20",
+    "followers": 18
+  },
+  {
+    "id": "background-083",
+    "title": "Water main renewal · Unnamed lane",
+    "type": "pipeline",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1355241484-0"
+    ],
+    "start": "2025-02-17",
+    "end": "2025-03-16",
+    "actualEnd": "2025-03-18",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-083",
+    "delays": [],
+    "restorationDue": "2025-04-15",
+    "restoredOn": "2025-04-03",
+    "followers": 41
+  },
+  {
+    "id": "background-084",
+    "title": "Road relay · Unnamed lane",
+    "type": "relay",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1413438973-0"
+    ],
+    "start": "2026-08-15",
+    "end": "2026-08-20",
+    "actualEnd": "2026-08-20",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-084",
+    "delays": [],
+    "restorationDue": "2026-09-19",
+    "restoredOn": "2026-09-07",
+    "followers": 72
+  },
+  {
+    "id": "background-085",
+    "title": "Service connection cut · CGE Colony",
+    "type": "cut",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30342329-1"
+    ],
+    "start": "2026-03-06",
+    "end": "2026-03-12",
+    "actualEnd": "2026-03-14",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-085",
+    "delays": [],
+    "restorationDue": "2026-04-11",
+    "restoredOn": "2026-03-30",
+    "followers": 8
+  },
+  {
+    "id": "background-086",
+    "title": "Stormwater drain repair · 26th East Street",
+    "type": "drain",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30343119-0"
+    ],
+    "start": "2026-02-15",
+    "end": "2026-02-21",
+    "actualEnd": "2026-02-23",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-086",
+    "delays": [],
+    "restorationDue": "2026-03-23",
+    "restoredOn": "2026-03-11",
+    "followers": 22
+  },
+  {
+    "id": "background-087",
+    "title": "Water main renewal · Rajaji Nagar Main Road",
+    "type": "pipeline",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30279589-2"
+    ],
+    "start": "2026-12-31",
+    "end": "2027-01-22",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-087",
+    "delays": [],
+    "restorationDue": "2027-02-21",
+    "followers": 66
+  },
+  {
+    "id": "background-088",
+    "title": "Underground cable replacement · Unnamed lane",
+    "type": "cable",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30342323-0"
+    ],
+    "start": "2026-01-13",
+    "end": "2026-01-23",
+    "actualEnd": "2026-01-24",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-088",
+    "delays": [],
+    "restorationDue": "2026-02-22",
+    "restoredOn": "2026-02-10",
+    "followers": 49
+  },
+  {
+    "id": "background-089",
+    "title": "Water main renewal · Valmiki Street",
+    "type": "pipeline",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30317770-7"
+    ],
+    "start": "2026-10-14",
+    "end": "2026-11-10",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-089",
+    "delays": [],
+    "restorationDue": "2026-12-10",
+    "followers": 20
+  },
+  {
+    "id": "background-090",
+    "title": "Water main renewal · Mettu Street",
+    "type": "pipeline",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-29047589-0"
+    ],
+    "start": "2025-02-04",
+    "end": "2025-02-27",
+    "actualEnd": "2025-02-28",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-090",
+    "delays": [],
+    "restorationDue": "2025-03-29",
+    "restoredOn": "2025-03-17",
+    "followers": 0
+  },
+  {
+    "id": "background-091",
+    "title": "Utility inspection · Unnamed lane",
+    "type": "inspection",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1155954748-0"
+    ],
+    "start": "2025-07-31",
+    "end": "2025-08-12",
+    "actualEnd": "2025-08-19",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-091",
+    "delays": [],
+    "restorationDue": "2025-09-11",
+    "restoredOn": "2025-08-30",
+    "followers": 1
+  },
+  {
+    "id": "background-092",
+    "title": "Road relay · East Coast Road",
+    "type": "relay",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-23761085-8"
+    ],
+    "start": "2026-06-21",
+    "end": "2026-07-05",
+    "actualEnd": "2026-07-09",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-092",
+    "delays": [],
+    "restorationDue": "2026-08-04",
+    "restoredOn": "2026-07-23",
+    "followers": 32
+  },
+  {
+    "id": "background-093",
+    "title": "Road relay · Unnamed lane",
+    "type": "relay",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1269007142-0"
+    ],
+    "start": "2025-07-21",
+    "end": "2025-08-14",
+    "actualEnd": "2025-08-19",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-093",
+    "delays": [],
+    "restorationDue": "2025-09-13",
+    "restoredOn": "2025-09-01",
+    "followers": 16
+  },
+  {
+    "id": "background-094",
+    "title": "Stormwater drain repair · 17th Street",
+    "type": "drain",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281226-0"
+    ],
+    "start": "2025-04-07",
+    "end": "2025-04-15",
+    "actualEnd": "2025-04-16",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-094",
+    "delays": [],
+    "restorationDue": "2025-05-15",
+    "restoredOn": "2025-05-03",
+    "followers": 29
+  },
+  {
+    "id": "background-095",
+    "title": "Utility inspection · Thiruvanmiyur Kuppam Beach Road",
+    "type": "inspection",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27442369-9"
+    ],
+    "start": "2026-02-19",
+    "end": "2026-02-24",
+    "actualEnd": "2026-03-02",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-095",
+    "delays": [],
+    "restorationDue": "2026-03-26",
+    "restoredOn": "2026-03-14",
+    "followers": 50
+  },
+  {
+    "id": "background-096",
+    "title": "Water main renewal · 10th Street",
+    "type": "pipeline",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30280959-0"
+    ],
+    "start": "2025-06-15",
+    "end": "2025-07-12",
+    "actualEnd": "2025-07-13",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-096",
+    "delays": [],
+    "restorationDue": "2025-08-11",
+    "restoredOn": "2025-07-30",
+    "followers": 46
+  },
+  {
+    "id": "background-097",
+    "title": "Underground cable replacement · Unnamed lane",
+    "type": "cable",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1537932486-0"
+    ],
+    "start": "2026-07-09",
+    "end": "2026-07-23",
+    "actualEnd": "2026-07-30",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-097",
+    "delays": [],
+    "restorationDue": "2026-08-22",
+    "restoredOn": "2026-08-10",
+    "followers": 48
+  },
+  {
+    "id": "background-098",
+    "title": "Water main renewal · Unnamed lane",
+    "type": "pipeline",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1247577516-0"
+    ],
+    "start": "2025-07-28",
+    "end": "2025-08-15",
+    "actualEnd": "2025-08-18",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-098",
+    "delays": [],
+    "restorationDue": "2025-09-14",
+    "restoredOn": "2025-09-02",
+    "followers": 4
+  },
+  {
+    "id": "background-099",
+    "title": "Water main renewal · South Avenue",
+    "type": "pipeline",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-55556331-3"
+    ],
+    "start": "2025-12-06",
+    "end": "2026-01-03",
+    "actualEnd": "2026-01-07",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-099",
+    "delays": [],
+    "restorationDue": "2026-02-02",
+    "restoredOn": "2026-01-21",
+    "followers": 27
+  },
+  {
+    "id": "background-100",
+    "title": "Service connection cut · 11th Street",
+    "type": "cut",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30338113-0"
+    ],
+    "start": "2026-10-02",
+    "end": "2026-10-27",
+    "status": "ongoing",
+    "flexDays": 30,
+    "projectId": "background-100",
+    "delays": [],
+    "restorationDue": "2026-11-26",
+    "followers": 36
+  },
+  {
+    "id": "background-101",
+    "title": "Service connection cut · Pilliyar Koil Street",
+    "type": "cut",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30339175-2"
+    ],
+    "start": "2026-03-10",
+    "end": "2026-03-22",
+    "actualEnd": "2026-03-25",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-101",
+    "delays": [],
+    "restorationDue": "2026-04-21",
+    "restoredOn": "2026-04-09",
+    "followers": 54
+  },
+  {
+    "id": "background-102",
+    "title": "Road resurfacing · 10th Street",
+    "type": "resurface",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281223-2"
+    ],
+    "start": "2025-12-14",
+    "end": "2025-12-21",
+    "actualEnd": "2025-12-25",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-102",
+    "delays": [],
+    "restorationDue": "2026-01-20",
+    "restoredOn": "2026-01-08",
+    "followers": 48
+  },
+  {
+    "id": "background-103",
+    "title": "Stormwater drain repair · Tiruvalluvar Nagar 2nd Avenue",
+    "type": "drain",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30312948-18"
+    ],
+    "start": "2026-01-09",
+    "end": "2026-01-19",
+    "actualEnd": "2026-01-20",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-103",
+    "delays": [],
+    "restorationDue": "2026-02-18",
+    "restoredOn": "2026-02-06",
+    "followers": 64
+  },
+  {
+    "id": "background-104",
+    "title": "Road resurfacing · Unnamed lane",
+    "type": "resurface",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1210669639-2"
+    ],
+    "start": "2026-05-30",
+    "end": "2026-06-18",
+    "actualEnd": "2026-06-23",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-104",
+    "delays": [],
+    "restorationDue": "2026-07-18",
+    "restoredOn": "2026-07-06",
+    "followers": 74
+  },
+  {
+    "id": "background-105",
+    "title": "Underground cable replacement · Tiruvalluvar Nagar 2nd Avenue",
+    "type": "cable",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30312948-20"
+    ],
+    "start": "2026-12-31",
+    "end": "2027-01-21",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-105",
+    "delays": [],
+    "restorationDue": "2027-02-20",
+    "followers": 76
+  },
+  {
+    "id": "background-106",
+    "title": "Stormwater drain repair · Tiruvalluvar Nagar 1st Avenue",
+    "type": "drain",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27880872-10"
+    ],
+    "start": "2025-07-01",
+    "end": "2025-07-13",
+    "actualEnd": "2025-07-19",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-106",
+    "delays": [],
+    "restorationDue": "2025-08-12",
+    "restoredOn": "2025-07-31",
+    "followers": 47
+  },
+  {
+    "id": "background-107",
+    "title": "Underground cable replacement · East Coast Road",
+    "type": "cable",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-131884970-8"
+    ],
+    "start": "2025-04-22",
+    "end": "2025-05-21",
+    "actualEnd": "2025-05-21",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-107",
+    "delays": [],
+    "restorationDue": "2025-06-20",
+    "restoredOn": "2025-06-08",
+    "followers": 49
+  },
+  {
+    "id": "background-108",
+    "title": "Underground cable replacement · 1st Main Road",
+    "type": "cable",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281946-2"
+    ],
+    "start": "2026-12-31",
+    "end": "2027-01-11",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-108",
+    "delays": [],
+    "restorationDue": "2027-02-10",
+    "followers": 44
+  },
+  {
+    "id": "background-109",
+    "title": "Underground cable replacement · Unnamed lane",
+    "type": "cable",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30342323-2"
+    ],
+    "start": "2025-12-02",
+    "end": "2025-12-12",
+    "actualEnd": "2025-12-18",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-109",
+    "delays": [],
+    "restorationDue": "2026-01-11",
+    "restoredOn": "2025-12-30",
+    "followers": 27
+  },
+  {
+    "id": "background-110",
+    "title": "Stormwater drain repair · South Avenue",
+    "type": "drain",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-55556331-3"
+    ],
+    "start": "2025-11-04",
+    "end": "2025-11-17",
+    "actualEnd": "2025-11-23",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-110",
+    "delays": [],
+    "restorationDue": "2025-12-17",
+    "restoredOn": "2025-12-05",
+    "followers": 9
+  },
+  {
+    "id": "background-111",
+    "title": "Utility inspection · Unnamed lane",
+    "type": "inspection",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30342332-0"
+    ],
+    "start": "2025-03-27",
+    "end": "2025-04-11",
+    "actualEnd": "2025-04-12",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-111",
+    "delays": [],
+    "restorationDue": "2025-05-11",
+    "restoredOn": "2025-04-29",
+    "followers": 12
+  },
+  {
+    "id": "background-112",
+    "title": "Water main renewal · 9th Street",
+    "type": "pipeline",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30280523-0"
+    ],
+    "start": "2025-01-09",
+    "end": "2025-02-07",
+    "actualEnd": "2025-02-09",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-112",
+    "delays": [],
+    "restorationDue": "2025-03-09",
+    "restoredOn": "2025-02-25",
+    "followers": 38
+  },
+  {
+    "id": "background-113",
+    "title": "Road relay · 3rd Street",
+    "type": "relay",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30342331-1"
+    ],
+    "start": "2026-11-03",
+    "end": "2026-11-12",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-113",
+    "delays": [],
+    "restorationDue": "2026-12-12",
+    "followers": 55
+  },
+  {
+    "id": "background-114",
+    "title": "Road relay · Thiruvalluvar Salai",
+    "type": "relay",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1149820889-0"
+    ],
+    "start": "2025-06-26",
+    "end": "2025-07-11",
+    "actualEnd": "2025-07-16",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-114",
+    "delays": [],
+    "restorationDue": "2025-08-10",
+    "restoredOn": "2025-07-29",
+    "followers": 35
+  },
+  {
+    "id": "background-115",
+    "title": "Stormwater drain repair · 2nd Street",
+    "type": "drain",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281949-0"
+    ],
+    "start": "2025-07-17",
+    "end": "2025-08-06",
+    "actualEnd": "2025-08-13",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-115",
+    "delays": [],
+    "restorationDue": "2025-09-05",
+    "restoredOn": "2025-08-24",
+    "followers": 30
+  },
+  {
+    "id": "background-116",
+    "title": "Road resurfacing · 12th Street",
+    "type": "resurface",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30312162-0"
+    ],
+    "start": "2026-05-20",
+    "end": "2026-05-31",
+    "actualEnd": "2026-06-05",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-116",
+    "delays": [],
+    "restorationDue": "2026-06-30",
+    "restoredOn": "2026-06-18",
+    "followers": 9
+  },
+  {
+    "id": "background-117",
+    "title": "Water main renewal · Kalki Krishnamurty Road",
+    "type": "pipeline",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-60477211-0"
+    ],
+    "start": "2025-01-04",
+    "end": "2025-01-13",
+    "actualEnd": "2025-01-13",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-117",
+    "delays": [],
+    "restorationDue": "2025-02-12",
+    "restoredOn": "2025-01-31",
+    "followers": 3
+  },
+  {
+    "id": "background-118",
+    "title": "Water main renewal · Unnamed lane",
+    "type": "pipeline",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1210669640-1"
+    ],
+    "start": "2027-03-07",
+    "end": "2027-04-04",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "background-118",
+    "delays": [],
+    "restorationDue": "2027-05-04",
+    "followers": 22
+  },
+  {
+    "id": "background-119",
+    "title": "Underground cable replacement · North Mada Street",
+    "type": "cable",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30343122-0"
+    ],
+    "start": "2025-09-08",
+    "end": "2025-10-05",
+    "actualEnd": "2025-10-05",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-119",
+    "delays": [],
+    "restorationDue": "2025-11-04",
+    "restoredOn": "2025-10-23",
+    "followers": 71
+  },
+  {
+    "id": "background-120",
+    "title": "Road relay · 5th Street",
+    "type": "relay",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-30281951-0"
+    ],
+    "start": "2024-11-29",
+    "end": "2024-12-24",
+    "actualEnd": "2024-12-28",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "background-120",
+    "delays": [],
+    "restorationDue": "2025-01-23",
+    "restoredOn": "2025-01-11",
+    "followers": 21
+  },
+  {
+    "id": "hero-relay",
+    "title": "Road relay · South Mada Street",
+    "type": "relay",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Renew the wearing surface after scheduled maintenance. Synthetic record.",
+    "segmentIds": [
+      "osm-27442374-0"
+    ],
+    "start": "2025-10-20",
+    "end": "2025-10-29",
+    "actualEnd": "2025-11-01",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "hero-relay",
+    "delays": [
+      {
+        "date": "2025-10-29",
+        "code": "weather",
+        "note": "Rain delayed the final surface course by three days."
+      }
+    ],
+    "restorationDue": "2026-02-07",
+    "restoredOn": "2026-02-01",
+    "followers": 48,
+    "hero": true
+  },
+  {
+    "id": "hero-water",
+    "title": "Water main replacement · South Mada Street",
+    "type": "pipeline",
+    "agency": "CMWSSB",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Replace a leaking water-main section and reinstate the excavated road surface. Synthetic work.",
+    "segmentIds": [
+      "osm-27442374-0"
+    ],
+    "start": "2026-09-15",
+    "end": "2026-10-01",
+    "status": "ongoing",
+    "flexDays": 30,
+    "projectId": "hero-water",
+    "delays": [
+      {
+        "date": "2026-10-02",
+        "code": "utility_clash",
+        "note": "A cable alignment was found in the trench. Revised utility alignment is awaiting coordination."
+      },
+      {
+        "date": "2026-10-07",
+        "code": "material",
+        "note": "Replacement coupling delivery is pending."
+      }
+    ],
+    "restorationDue": "2026-10-05",
+    "followers": 23,
+    "hero": true
+  },
+  {
+    "id": "hero-cable",
+    "title": "Cable corridor renewal · South Mada Street",
+    "type": "cable",
+    "agency": "Tangedco",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27442374-0"
+    ],
+    "start": "2026-11-15",
+    "end": "2026-11-22",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "hero-cable",
+    "delays": [],
+    "restorationDue": "2026-12-22",
+    "followers": 47,
+    "hero": true
+  },
+  {
+    "id": "hero-drain",
+    "title": "Drain desilting and repairs · Unnamed lane",
+    "type": "drain",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1189553230-0"
+    ],
+    "start": "2026-08-12",
+    "end": "2026-08-23",
+    "actualEnd": "2026-08-29",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "hero-drain",
+    "delays": [
+      {
+        "date": "2026-08-24",
+        "code": "contractor",
+        "note": "Crew reassigned; finish date revised."
+      }
+    ],
+    "restorationDue": "2026-09-28",
+    "followers": 64,
+    "hero": true
+  },
+  {
+    "id": "hero-bsnl",
+    "title": "Telecom duct inspection · South Mada Street",
+    "type": "inspection",
+    "agency": "BSNL",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27442374-2"
+    ],
+    "start": "2026-10-20",
+    "end": "2026-10-21",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "hero-bsnl",
+    "delays": [],
+    "restorationDue": "2026-02-07",
+    "restoredOn": "2026-02-01",
+    "followers": 59,
+    "hero": true
+  },
+  {
+    "id": "hero-restored",
+    "title": "Service connection reinstatement · Thiruvalluvar Road",
+    "type": "cut",
+    "agency": "PrivateTelecom",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1030689330-0"
+    ],
+    "start": "2026-07-01",
+    "end": "2026-07-08",
+    "actualEnd": "2026-07-08",
+    "status": "completed",
+    "flexDays": 30,
+    "projectId": "hero-restored",
+    "delays": [],
+    "restorationDue": "2026-08-07",
+    "restoredOn": "2026-07-25",
+    "followers": 14,
+    "hero": true
+  },
+  {
+    "id": "hero-resurface",
+    "title": "Final road resurfacing · South Mada Street",
+    "type": "resurface",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-27442374-0"
+    ],
+    "start": "2027-01-15",
+    "end": "2027-01-22",
+    "status": "planned",
+    "flexDays": 30,
+    "projectId": "hero-resurface",
+    "delays": [],
+    "restorationDue": "2026-02-07",
+    "followers": 41,
+    "hero": true
+  },
+  {
+    "id": "hero-long-title",
+    "title": "Underground stormwater drainage rehabilitation and service corridor restoration for the neighbourhood access road section",
+    "type": "drain",
+    "agency": "GCC",
+    "contractor": "Demo Civil Works Consortium",
+    "purpose": "Synthetic public-works record for the registry demonstration.",
+    "segmentIds": [
+      "osm-1189553230-0"
+    ],
+    "start": "2026-09-20",
+    "end": "2026-10-06",
+    "status": "ongoing",
+    "flexDays": 30,
+    "projectId": "hero-long-title",
+    "delays": [
+      {
+        "date": "2026-10-07",
+        "code": "scope_change",
+        "note": "Additional drain cover replacements included after inspection."
+      }
+    ],
+    "restorationDue": "2026-11-05",
+    "followers": 64,
+    "hero": true
+  }
+]

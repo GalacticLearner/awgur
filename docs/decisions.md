@@ -11,3 +11,6 @@
 - Proposed hosting substitution: GitHub Pages instead of Vercel/Netlify, avoiding a second account for the identical static build.
 
 - Installed APK phase gates use a GitHub-hosted Android emulator since this machine has no Android SDK or connected device. Physical phone and TalkBack checks will remain explicitly unverified unless a device becomes available.
+
+- OSM obtained from the VK Maps public Overpass endpoint after other endpoints failed. Retain the central 400 segments around Thiruvanmiyur for mobile rendering. Geometry remains ODbL, attributed in map and About.
+- Validation fixtures are stored in fixtures.json separately from the 128 visible registry works. Each constructed case explicitly names its fixture work ids; isolated rule tests cannot be polluted by random background works. The combined hero scenario is checked separately against the visible registry.

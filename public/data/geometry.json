@@ -1,0 +1,13 @@
+{
+  "source": "OpenStreetMap via Overpass",
+  "bbox": [
+    12.975,
+    80.25,
+    12.992,
+    80.268
+  ],
+  "attribution": "Map data © OpenStreetMap contributors (ODbL)",
+  "segmentCount": 400,
+  "chunkTargetM": 160,
+  "selection": "Central 400 segments near the Thiruvanmiyur temple; endpoint topology preserved inside the retained network"
+}

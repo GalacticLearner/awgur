@@ -1,0 +1,1790 @@
+[
+  {
+    "id": "r1_positive-01",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-01",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 1 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-01"
+    ],
+    "why": "1 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_positive-02",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-02",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 2 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-02"
+    ],
+    "why": "2 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_positive-03",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-03",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 3 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-03"
+    ],
+    "why": "3 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_positive-04",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-04",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 4 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-04"
+    ],
+    "why": "4 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_positive-05",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-05",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 5 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-05"
+    ],
+    "why": "5 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_positive-06",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-06",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 6 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-06"
+    ],
+    "why": "6 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_positive-07",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-07",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 7 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-07"
+    ],
+    "why": "7 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_positive-08",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-08",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 8 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-08"
+    ],
+    "why": "8 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_positive-09",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-09",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 9 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-09"
+    ],
+    "why": "9 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_positive-10",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-10",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 10 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-10"
+    ],
+    "why": "10 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_positive-11",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-11",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 11 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-11"
+    ],
+    "why": "11 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_positive-12",
+    "category": "r1_positive",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_positive-12",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 1 months after actual resurfacing completion on the same segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_positive-12"
+    ],
+    "why": "1 months after actual resurfacing completion on the same segment"
+  },
+  {
+    "id": "r1_negative-01",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-01",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: At or beyond the strict 12-month boundary",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-01"
+    ],
+    "why": "At or beyond the strict 12-month boundary"
+  },
+  {
+    "id": "r1_negative-02",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-02",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Resurfacing is on an adjacent segment, not the requested segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-02"
+    ],
+    "why": "Resurfacing is on an adjacent segment, not the requested segment"
+  },
+  {
+    "id": "r1_negative-03",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-03",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Cancelled relay is ignored",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-03"
+    ],
+    "why": "Cancelled relay is ignored"
+  },
+  {
+    "id": "r1_negative-04",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-04",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: At or beyond the strict 12-month boundary",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-04"
+    ],
+    "why": "At or beyond the strict 12-month boundary"
+  },
+  {
+    "id": "r1_negative-05",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-05",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Resurfacing is on an adjacent segment, not the requested segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-05"
+    ],
+    "why": "Resurfacing is on an adjacent segment, not the requested segment"
+  },
+  {
+    "id": "r1_negative-06",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-06",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Cancelled relay is ignored",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-06"
+    ],
+    "why": "Cancelled relay is ignored"
+  },
+  {
+    "id": "r1_negative-07",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-07",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: At or beyond the strict 12-month boundary",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-07"
+    ],
+    "why": "At or beyond the strict 12-month boundary"
+  },
+  {
+    "id": "r1_negative-08",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-08",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Resurfacing is on an adjacent segment, not the requested segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-08"
+    ],
+    "why": "Resurfacing is on an adjacent segment, not the requested segment"
+  },
+  {
+    "id": "r1_negative-09",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-09",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Cancelled relay is ignored",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-09"
+    ],
+    "why": "Cancelled relay is ignored"
+  },
+  {
+    "id": "r1_negative-10",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-10",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: At or beyond the strict 12-month boundary",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-10"
+    ],
+    "why": "At or beyond the strict 12-month boundary"
+  },
+  {
+    "id": "r1_negative-11",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-11",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Resurfacing is on an adjacent segment, not the requested segment",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-11"
+    ],
+    "why": "Resurfacing is on an adjacent segment, not the requested segment"
+  },
+  {
+    "id": "r1_negative-12",
+    "category": "r1_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r1_negative-12",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Cancelled relay is ignored",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r1_negative-12"
+    ],
+    "why": "Cancelled relay is ignored"
+  },
+  {
+    "id": "r1_emergency-01",
+    "category": "r1_emergency",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_emergency-01",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Emergency requests still receive moratorium warnings",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "emergency": {
+        "reason": "Demo emergency: burst water main; override must remain visible."
+      }
+    },
+    "existingWorkIds": [
+      "fixture-r1_emergency-01"
+    ],
+    "why": "Emergency requests still receive moratorium warnings"
+  },
+  {
+    "id": "r1_emergency-02",
+    "category": "r1_emergency",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_emergency-02",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Emergency requests still receive moratorium warnings",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "emergency": {
+        "reason": "Demo emergency: burst water main; override must remain visible."
+      }
+    },
+    "existingWorkIds": [
+      "fixture-r1_emergency-02"
+    ],
+    "why": "Emergency requests still receive moratorium warnings"
+  },
+  {
+    "id": "r1_emergency-03",
+    "category": "r1_emergency",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_emergency-03",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Emergency requests still receive moratorium warnings",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "emergency": {
+        "reason": "Demo emergency: burst water main; override must remain visible."
+      }
+    },
+    "existingWorkIds": [
+      "fixture-r1_emergency-03"
+    ],
+    "why": "Emergency requests still receive moratorium warnings"
+  },
+  {
+    "id": "r1_emergency-04",
+    "category": "r1_emergency",
+    "expectedRules": [
+      "R1"
+    ],
+    "request": {
+      "id": "request-r1_emergency-04",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Emergency requests still receive moratorium warnings",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "emergency": {
+        "reason": "Demo emergency: burst water main; override must remain visible."
+      }
+    },
+    "existingWorkIds": [
+      "fixture-r1_emergency-04"
+    ],
+    "why": "Emergency requests still receive moratorium warnings"
+  },
+  {
+    "id": "r2_positive-01",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-01",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 0-day gap on the same segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-01"
+    ],
+    "why": "0-day gap on the same segment, different agency"
+  },
+  {
+    "id": "r2_positive-02",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-02",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 8-day gap on an adjacent segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-02"
+    ],
+    "why": "8-day gap on an adjacent segment, different agency"
+  },
+  {
+    "id": "r2_positive-03",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-03",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 16-day gap on the same segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-03"
+    ],
+    "why": "16-day gap on the same segment, different agency"
+  },
+  {
+    "id": "r2_positive-04",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-04",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 24-day gap on an adjacent segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-04"
+    ],
+    "why": "24-day gap on an adjacent segment, different agency"
+  },
+  {
+    "id": "r2_positive-05",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-05",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 32-day gap on the same segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-05"
+    ],
+    "why": "32-day gap on the same segment, different agency"
+  },
+  {
+    "id": "r2_positive-06",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-06",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 40-day gap on an adjacent segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-06"
+    ],
+    "why": "40-day gap on an adjacent segment, different agency"
+  },
+  {
+    "id": "r2_positive-07",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-07",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 48-day gap on the same segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-07"
+    ],
+    "why": "48-day gap on the same segment, different agency"
+  },
+  {
+    "id": "r2_positive-08",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-08",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 56-day gap on an adjacent segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-08"
+    ],
+    "why": "56-day gap on an adjacent segment, different agency"
+  },
+  {
+    "id": "r2_positive-09",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-09",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 64-day gap on the same segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-09"
+    ],
+    "why": "64-day gap on the same segment, different agency"
+  },
+  {
+    "id": "r2_positive-10",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-10",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 72-day gap on an adjacent segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-10"
+    ],
+    "why": "72-day gap on an adjacent segment, different agency"
+  },
+  {
+    "id": "r2_positive-11",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-11",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 80-day gap on the same segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-11"
+    ],
+    "why": "80-day gap on the same segment, different agency"
+  },
+  {
+    "id": "r2_positive-12",
+    "category": "r2_positive",
+    "expectedRules": [
+      "R2"
+    ],
+    "request": {
+      "id": "request-r2_positive-12",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: 90-day gap on an adjacent segment, different agency",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_positive-12"
+    ],
+    "why": "90-day gap on an adjacent segment, different agency"
+  },
+  {
+    "id": "r2_negative-01",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-01",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Same-agency phases of the same named project",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "same-project"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-01"
+    ],
+    "why": "Same-agency phases of the same named project"
+  },
+  {
+    "id": "r2_negative-02",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-02",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Gap exceeds 120 days",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-02"
+    ],
+    "why": "Gap exceeds 120 days"
+  },
+  {
+    "id": "r2_negative-03",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-03",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Same street label but non-adjacent segments",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-03"
+    ],
+    "why": "Same street label but non-adjacent segments"
+  },
+  {
+    "id": "r2_negative-04",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-04",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Overlapping dates on a different street",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-04"
+    ],
+    "why": "Overlapping dates on a different street"
+  },
+  {
+    "id": "r2_negative-05",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-05",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Same-agency phases of the same named project",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "same-project"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-05"
+    ],
+    "why": "Same-agency phases of the same named project"
+  },
+  {
+    "id": "r2_negative-06",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-06",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Gap exceeds 120 days",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-06"
+    ],
+    "why": "Gap exceeds 120 days"
+  },
+  {
+    "id": "r2_negative-07",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-07",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Same street label but non-adjacent segments",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-07"
+    ],
+    "why": "Same street label but non-adjacent segments"
+  },
+  {
+    "id": "r2_negative-08",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-08",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Overlapping dates on a different street",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-08"
+    ],
+    "why": "Overlapping dates on a different street"
+  },
+  {
+    "id": "r2_negative-09",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-09",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Same-agency phases of the same named project",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "same-project"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-09"
+    ],
+    "why": "Same-agency phases of the same named project"
+  },
+  {
+    "id": "r2_negative-10",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-10",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Gap exceeds 120 days",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-10"
+    ],
+    "why": "Gap exceeds 120 days"
+  },
+  {
+    "id": "r2_negative-11",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-11",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Same street label but non-adjacent segments",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-11"
+    ],
+    "why": "Same street label but non-adjacent segments"
+  },
+  {
+    "id": "r2_negative-12",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-12",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Overlapping dates on a different street",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-12"
+    ],
+    "why": "Overlapping dates on a different street"
+  },
+  {
+    "id": "r2_negative-13",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-13",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Same-agency phases of the same named project",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "same-project"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-13"
+    ],
+    "why": "Same-agency phases of the same named project"
+  },
+  {
+    "id": "r2_negative-14",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-14",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Gap exceeds 120 days",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-14"
+    ],
+    "why": "Gap exceeds 120 days"
+  },
+  {
+    "id": "r2_negative-15",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-15",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Same street label but non-adjacent segments",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-15"
+    ],
+    "why": "Same street label but non-adjacent segments"
+  },
+  {
+    "id": "r2_negative-16",
+    "category": "r2_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r2_negative-16",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Overlapping dates on a different street",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal"
+    },
+    "existingWorkIds": [
+      "fixture-r2_negative-16"
+    ],
+    "why": "Overlapping dates on a different street"
+  },
+  {
+    "id": "r3_positive-01",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-01",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Feasible windows overlap with room for both durations",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 10,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-01"
+    ],
+    "why": "Feasible windows overlap with room for both durations"
+  },
+  {
+    "id": "r3_positive-02",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-02",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Feasible windows overlap with room for both durations",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 10,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-02"
+    ],
+    "why": "Feasible windows overlap with room for both durations"
+  },
+  {
+    "id": "r3_positive-03",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-03",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Feasible windows overlap with room for both durations",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 10,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-03"
+    ],
+    "why": "Feasible windows overlap with room for both durations"
+  },
+  {
+    "id": "r3_positive-04",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-04",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Feasible windows overlap with room for both durations",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 10,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-04"
+    ],
+    "why": "Feasible windows overlap with room for both durations"
+  },
+  {
+    "id": "r3_positive-05",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-05",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Feasible windows overlap with room for both durations",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 10,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-05"
+    ],
+    "why": "Feasible windows overlap with room for both durations"
+  },
+  {
+    "id": "r3_positive-06",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-06",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Feasible windows overlap with room for both durations",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 10,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-06"
+    ],
+    "why": "Feasible windows overlap with room for both durations"
+  },
+  {
+    "id": "r3_positive-07",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-07",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Utility cut precedes planned resurfacing",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-07"
+    ],
+    "why": "Utility cut precedes planned resurfacing"
+  },
+  {
+    "id": "r3_positive-08",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-08",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Utility cut precedes planned resurfacing",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-08"
+    ],
+    "why": "Utility cut precedes planned resurfacing"
+  },
+  {
+    "id": "r3_positive-09",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-09",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Utility cut precedes planned resurfacing",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-09"
+    ],
+    "why": "Utility cut precedes planned resurfacing"
+  },
+  {
+    "id": "r3_positive-10",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-10",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Utility cut precedes planned resurfacing",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-10"
+    ],
+    "why": "Utility cut precedes planned resurfacing"
+  },
+  {
+    "id": "r3_positive-11",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-11",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Utility cut precedes planned resurfacing",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-11"
+    ],
+    "why": "Utility cut precedes planned resurfacing"
+  },
+  {
+    "id": "r3_positive-12",
+    "category": "r3_positive",
+    "expectedRules": [
+      "R3"
+    ],
+    "request": {
+      "id": "request-r3_positive-12",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Utility cut precedes planned resurfacing",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "bundle-fixture"
+    },
+    "existingWorkIds": [
+      "fixture-r3_positive-12"
+    ],
+    "why": "Utility cut precedes planned resurfacing"
+  },
+  {
+    "id": "r3_negative-01",
+    "category": "r3_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r3_negative-01",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Flexible windows do not intersect; no resurfacing sequence",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "no-bundle"
+    },
+    "existingWorkIds": [
+      "fixture-r3_negative-01"
+    ],
+    "why": "Flexible windows do not intersect; no resurfacing sequence"
+  },
+  {
+    "id": "r3_negative-02",
+    "category": "r3_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r3_negative-02",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Flexible windows do not intersect; no resurfacing sequence",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "no-bundle"
+    },
+    "existingWorkIds": [
+      "fixture-r3_negative-02"
+    ],
+    "why": "Flexible windows do not intersect; no resurfacing sequence"
+  },
+  {
+    "id": "r3_negative-03",
+    "category": "r3_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r3_negative-03",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Flexible windows do not intersect; no resurfacing sequence",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "no-bundle"
+    },
+    "existingWorkIds": [
+      "fixture-r3_negative-03"
+    ],
+    "why": "Flexible windows do not intersect; no resurfacing sequence"
+  },
+  {
+    "id": "r3_negative-04",
+    "category": "r3_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r3_negative-04",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Flexible windows do not intersect; no resurfacing sequence",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "no-bundle"
+    },
+    "existingWorkIds": [
+      "fixture-r3_negative-04"
+    ],
+    "why": "Flexible windows do not intersect; no resurfacing sequence"
+  },
+  {
+    "id": "r3_negative-05",
+    "category": "r3_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r3_negative-05",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Flexible windows do not intersect; no resurfacing sequence",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "no-bundle"
+    },
+    "existingWorkIds": [
+      "fixture-r3_negative-05"
+    ],
+    "why": "Flexible windows do not intersect; no resurfacing sequence"
+  },
+  {
+    "id": "r3_negative-06",
+    "category": "r3_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r3_negative-06",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Flexible windows do not intersect; no resurfacing sequence",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "no-bundle"
+    },
+    "existingWorkIds": [
+      "fixture-r3_negative-06"
+    ],
+    "why": "Flexible windows do not intersect; no resurfacing sequence"
+  },
+  {
+    "id": "r3_negative-07",
+    "category": "r3_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r3_negative-07",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Flexible windows do not intersect; no resurfacing sequence",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "no-bundle"
+    },
+    "existingWorkIds": [
+      "fixture-r3_negative-07"
+    ],
+    "why": "Flexible windows do not intersect; no resurfacing sequence"
+  },
+  {
+    "id": "r3_negative-08",
+    "category": "r3_negative",
+    "expectedRules": [],
+    "request": {
+      "id": "request-r3_negative-08",
+      "agency": "CMWSSB",
+      "type": "cut",
+      "purpose": "Validation scenario: Flexible windows do not intersect; no resurfacing sequence",
+      "segmentIds": [
+        "osm-27442374-0"
+      ],
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "flexDays": 0,
+      "channel": "municipal",
+      "projectId": "no-bundle"
+    },
+    "existingWorkIds": [
+      "fixture-r3_negative-08"
+    ],
+    "why": "Flexible windows do not intersect; no resurfacing sequence"
+  }
+]
