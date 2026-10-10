@@ -1,0 +1,87 @@
+{
+  "durationSeconds": 159.933333,
+  "bytes": 4568505,
+  "sha256": "0ad168d66b480de77d9b718e0b9c97cf8115bc45139ce0c3dfa2cf01890c033f",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "audio": "silent for user voice-over",
+  "sources": [
+    "actual hosted website",
+    "actual installed Android debug APK"
+  ],
+  "timeline": [
+    {
+      "name": "problem",
+      "start": 0,
+      "end": 22,
+      "source": "web",
+      "sourceStart": 0
+    },
+    {
+      "name": "clock-risk-web",
+      "start": 22,
+      "end": 40,
+      "source": "web",
+      "sourceStart": 22
+    },
+    {
+      "name": "clock-risk-android",
+      "start": 40,
+      "end": 69,
+      "source": "native",
+      "sourceStart": 0
+    },
+    {
+      "name": "insufficient",
+      "start": 69,
+      "end": 79,
+      "source": "native",
+      "sourceStart": 29
+    },
+    {
+      "name": "coordination",
+      "start": 79,
+      "end": 91,
+      "source": "native",
+      "sourceStart": 39
+    },
+    {
+      "name": "public-exception",
+      "start": 91,
+      "end": 105,
+      "source": "native",
+      "sourceStart": 51
+    },
+    {
+      "name": "hindsight",
+      "start": 105,
+      "end": 128,
+      "source": "web",
+      "sourceStart": 40
+    },
+    {
+      "name": "coverage",
+      "start": 128,
+      "end": 143,
+      "source": "web",
+      "sourceStart": 63
+    },
+    {
+      "name": "research",
+      "start": 143,
+      "end": 150,
+      "source": "web",
+      "sourceStart": 78
+    },
+    {
+      "name": "both-platforms",
+      "start": 150,
+      "end": 160,
+      "source": "both",
+      "webStart": 85,
+      "nativeStart": 65
+    }
+  ]
+}

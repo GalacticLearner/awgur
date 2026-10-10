@@ -2,6 +2,8 @@
 
 [Android APK release](https://github.com/GalacticLearner/awgur/releases/latest) · [Live website](https://galacticlearner.github.io/awgur/) · [Implementation and results](docs/clock-risk.md)
 
+[Download the 2:40 demo video](https://raw.githubusercontent.com/GalacticLearner/awgur/main/demo/awgur-demo.mp4) · [Timed narration script](docs/demo-script.md) · [Voice-over sync guide](docs/voiceover-sync.md). The silent 1080p video shows the hosted website and an installed Android APK, with zooms matched to the narration.
+
 [![Android checks](https://github.com/GalacticLearner/awgur/actions/workflows/android.yml/badge.svg)](https://github.com/GalacticLearner/awgur/actions/workflows/android.yml)
 
 A permit can clear a road’s protection window on planned dates and still be too early when resurfacing finishes late. awgur connects a public delay ledger to the next permit decision: ordinary clash checks plus **Clock Risk**, a slip-aware completion bound feeding the moratorium clock.
@@ -26,7 +28,13 @@ Download `awgur-1.0.0.apk` from the [public Release](https://github.com/Galactic
 
 1. Open the APK; allow installation from that browser or file manager if Android asks.
 2. Install and open awgur. This signed evaluation APK is distributed outside the Play Store; Android/Play Protect may display an installation notice.
-3. Verify SHA-256 against the release’s `SHA256SUMS.txt`. The final tagged checksum is added here after the release build finishes.
+3. Verify SHA-256 against the release’s `SHA256SUMS.txt` and the checksum below.
+
+SHA-256 of `awgur-1.0.0.apk`:
+
+```text
+66cd4c17d3e3caebdc0dd9ddb83fc46e469c0e1ce304c15f626201c3b18b5588
+```
 
 Choose the named signed APK. `app-debug.apk`, when present, is the separate debug fallback. Package id `app.worksregistry.demo` is retained for compatibility. A debug-to-release signing change requires uninstalling the debug variant first, which clears its local demo edits.
 

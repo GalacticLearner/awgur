@@ -1,11 +1,20 @@
-import json,pathlib,subprocess,hashlib
+import json,pathlib,subprocess,hashlib,os,shutil,struct
 out=pathlib.Path('qa/demo');raw=out/'raw';clips=out/'clips';clips.mkdir(parents=True,exist_ok=True)
 web=json.loads((out/'web-recording.json').read_text());timeline=json.loads(pathlib.Path('scripts/demo_timeline.json').read_text())
 font='node_modules/@fontsource/public-sans/files/public-sans-latin-600-normal.woff2'
-def run(args):subprocess.run(args,check=True)
+if os.name=='nt':
+    shutil.copyfile('C:/Windows/Fonts/seguisb.ttf',out/'caption.ttf');font=(out/'caption.ttf').as_posix()
+ffmpeg=os.environ.get('FFMPEG_EXE','ffmpeg')
+def run(args):
+    if args[0]=='ffmpeg':args[0]=ffmpeg
+    subprocess.run(args,check=True)
+# Android's VFR MP4 edit/timestamp tracks can make input seeking land on the
+# wrong scene. Decode once to a regular 30fps timeline before cutting it.
+normalized=raw/'native-normalized.mp4'
+run(['ffmpeg','-hide_banner','-loglevel','error','-y','-i',str(raw/'native.mp4'),'-vf','fps=30,tpad=stop_mode=clone:stop_duration=12','-an','-c:v','libx264','-preset','veryfast','-crf','18','-pix_fmt','yuv420p',str(normalized)])
 def label(name,text):
-    path=out/f'{name}.txt';path.write_text(text,encoding='utf-8');return str(path)
-def caption(path,x=80,y=12,size=23):return f'drawtext=fontfile={font}:textfile={path}:fontsize={size}:fontcolor=0x193b36:x={x}:y={y}'
+    path=out/f'{name}.txt';path.write_text(text,encoding='utf-8');return path.as_posix()
+def caption(path,x=80,y=12,size=23):return f'drawbox=x=0:y={0 if y<40 else 1040}:w=iw:h=40:color=0xf6f4eb:t=fill,drawtext=fontfile={font}:textfile={path}:expansion=none:fontsize={size}:fontcolor=0x193b36:x={x}:y={y}'
 def zoom_filter(zoom,center,delayed=False):
     if zoom==1:return ''
     z=f'1+{zoom-1:.3f}*(1-exp(-on/8))' if not delayed else 'if(lt(on,150),1,1+0.4*(1-exp(-(on-150)/8)))'
@@ -28,12 +37,12 @@ parts=[]
 for scene in timeline['scenes']:
     name=scene['name'];duration=scene['end']-scene['start'];dest=clips/f'{len(parts):02d}-{name}.mp4'
     if scene['source']=='both':
-        command=['ffmpeg','-hide_banner','-loglevel','error','-y','-ss',str(web['offsetSeconds']+scene['webStart']),'-i',str(raw/'web.webm'),'-ss',str(scene['nativeStart']),'-i',str(raw/'native.mp4'),'-t',str(duration)]
+        command=['ffmpeg','-hide_banner','-loglevel','error','-y','-ss',str(web['offsetSeconds']+scene['webStart']),'-i',str(raw/'web.webm'),'-ss',str(scene['nativeStart']),'-i',str(normalized),'-t',str(duration)]
         title=label(name,'awgur | A delay record informs the decision before the next cut')
         graph=f"[0:v]fps=30,scale=960:540,pad=960:1000:0:230:color=0xf6f4eb[left];[1:v]fps=30,scale=-2:1000,pad=960:1000:(ow-iw)/2:0:color=0xf6f4eb[right];[left][right]hstack,pad=1920:1080:0:40:color=0xf6f4eb,{caption(title)}[v]"
         command+=['-filter_complex',graph,'-map','[v]']
     else:
-        native=scene['source']=='native';source=raw/('native.mp4' if native else 'web.webm');start=scene['sourceStart']+(0 if native else web['offsetSeconds'])
+        native=scene['source']=='native';source=normalized if native else raw/'web.webm';start=scene['sourceStart']+(0 if native else web['offsetSeconds'])
         command=['ffmpeg','-hide_banner','-loglevel','error','-y','-ss',str(start),'-i',str(source),'-t',str(duration)]
         filters=['fps=30']
         if native:
@@ -51,7 +60,29 @@ for scene in timeline['scenes']:
     run(command);parts.append(dest)
 manifest=clips/'concat.txt';manifest.write_text('\n'.join(f"file '{path.name}'" for path in parts)+'\n')
 final=out/'awgur-demo.mp4';run(['ffmpeg','-hide_banner','-loglevel','error','-y','-f','concat','-safe','0','-i',str(manifest),'-c','copy','-movflags','+faststart',str(final)])
-probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(final)]))
+if shutil.which('ffprobe'):
+    probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(final)]))
+else:
+    data=final.read_bytes()
+    def boxes(start,end):
+        while start+8<=end:
+            size=int.from_bytes(data[start:start+4],'big');kind=data[start+4:start+8];header=8
+            if size==1:size=int.from_bytes(data[start+8:start+16],'big');header=16
+            if not size:size=end-start
+            yield kind,start+header,start+size
+            start+=size
+    moov=next((a,b) for kind,a,b in boxes(0,len(data)) if kind==b'moov')
+    duration=width=height=None
+    for kind,a,b in boxes(*moov):
+        if kind==b'mvhd':
+            offset=20 if data[a]==1 else 12;timescale=int.from_bytes(data[a+offset:a+offset+4],'big');length=8 if data[a]==1 else 4
+            duration=int.from_bytes(data[a+offset+4:a+offset+4+length],'big')/timescale
+        if kind==b'trak':
+            for sub,c,d in boxes(a,b):
+                if sub==b'tkhd':
+                    candidate_width=int.from_bytes(data[d-8:d-4],'big')/65536;candidate_height=int.from_bytes(data[d-4:d],'big')/65536
+                    if candidate_width and candidate_height:width=candidate_width;height=candidate_height
+    probe={'format':{'duration':duration},'streams':[{'width':width,'height':height}]}
 assert abs(float(probe['format']['duration'])-160)<.15,'Unexpected final duration'
 assert final.stat().st_size<100*1024*1024,'Video exceeds GitHub file limit'
 assert probe['streams'][0]['width']==1920 and probe['streams'][0]['height']==1080
