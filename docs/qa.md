@@ -16,3 +16,9 @@ Corrected CI run 38024037508 passed APK compilation, installation and direct Web
 
 ## Phase 1 data
 400 real OSM segments; 120 background + 8 hero works; 6 pending permits; 76 constructed scenarios with required category counts. Regeneration identical twice. References valid. Bundled data approximately 328 KB. Ground truth committed before rules are implemented. Native rebuild gate pending.
+
+## Phase 1 acceptance
+Latest data revision 71c1759 passed CI run 38024631694, including APK install and rendered-content launch. Tagged phase-1-green.
+
+## Phase 2 engine
+91 tests pass, including 76 constructed cases and date output checks under Asia/Kolkata and America/Los_Angeles. Pure engine imports no UI/native APIs. Validation reports R1 16 TP, R2 12 TP, R3 12 TP with no rule FP/FN on these isolated fixtures; 12/12 emitted R3 suggestions validate. Baseline errors are all listed in docs/validation.md. Combined hero has R1, R2 and a validated R3 that removes R1. Production build passes. Native gate pending.

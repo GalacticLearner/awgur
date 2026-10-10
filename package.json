@@ -7,7 +7,7 @@
     "seed": "tsx scripts/gen_seed.ts",
     "validate": "tsx scripts/validate.ts",
     "android:apk": "node scripts/apk.mjs",
-    "test": "vitest run --passWithNoTests",
+    "test": "vitest run",
     "android:sync": "npm run build && cap sync android",
     "preview": "vite preview",
     "android:open": "cap open android",

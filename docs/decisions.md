@@ -14,3 +14,6 @@
 
 - OSM obtained from the VK Maps public Overpass endpoint after other endpoints failed. Retain the central 400 segments around Thiruvanmiyur for mobile rendering. Geometry remains ODbL, attributed in map and About.
 - Validation fixtures are stored in fixtures.json separately from the 128 visible registry works. Each constructed case explicitly names its fixture work ids; isolated rule tests cannot be polluted by random background works. The combined hero scenario is checked separately against the visible registry.
+
+- R2 checks excavation types cut, pipeline, cable and drain. Relay/resurface protection is handled by R1; inspection is excluded. Missing project ids do not establish a same-project exemption.
+- Joint scheduling preserves the longer inclusive calendar-day duration. A flexible window may advance to the calendar moratorium expiry; only independently validated suggestions are exposed. Resurfacing sequence windows must start after the excavation ends.

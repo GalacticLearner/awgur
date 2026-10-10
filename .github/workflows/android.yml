@@ -16,6 +16,7 @@ jobs:
       - run: npm ci
       - run: npm run data:check
       - run: npm test
+      - run: npm run validate
   apk:
     runs-on: ubuntu-latest
     steps:
@@ -57,5 +58,6 @@ jobs:
         with:
           name: android-launch-evidence
           path: qa/android/
+
 
 

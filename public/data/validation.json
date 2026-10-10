@@ -1,0 +1,500 @@
+{
+  "cases": 76,
+  "scope": "Independently constructed synthetic cases; each case runs against its explicitly named fixture works, not random background records. This tests implementation correctness, not real Chennai clash rates.",
+  "rules": {
+    "R1": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "tn": 60,
+      "precision": 1,
+      "recall": 1,
+      "errors": []
+    },
+    "R2": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "tn": 64,
+      "precision": 1,
+      "recall": 1,
+      "errors": []
+    },
+    "R3": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "tn": 64,
+      "precision": 1,
+      "recall": 1,
+      "errors": []
+    }
+  },
+  "baselines": {
+    "B0": {
+      "tp": 1,
+      "fp": 14,
+      "fn": 27,
+      "tn": 34,
+      "precision": 0.06666666666666667,
+      "recall": 0.03571428571428571,
+      "errors": [
+        {
+          "id": "r1_positive-01",
+          "kind": "FN",
+          "why": "1 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-02",
+          "kind": "FN",
+          "why": "2 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-03",
+          "kind": "FN",
+          "why": "3 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-04",
+          "kind": "FN",
+          "why": "4 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-05",
+          "kind": "FN",
+          "why": "5 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-06",
+          "kind": "FN",
+          "why": "6 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-07",
+          "kind": "FN",
+          "why": "7 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-08",
+          "kind": "FN",
+          "why": "8 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-09",
+          "kind": "FN",
+          "why": "9 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-10",
+          "kind": "FN",
+          "why": "10 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-11",
+          "kind": "FN",
+          "why": "11 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-12",
+          "kind": "FN",
+          "why": "1 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_emergency-01",
+          "kind": "FN",
+          "why": "Emergency requests still receive moratorium warnings"
+        },
+        {
+          "id": "r1_emergency-02",
+          "kind": "FN",
+          "why": "Emergency requests still receive moratorium warnings"
+        },
+        {
+          "id": "r1_emergency-03",
+          "kind": "FN",
+          "why": "Emergency requests still receive moratorium warnings"
+        },
+        {
+          "id": "r1_emergency-04",
+          "kind": "FN",
+          "why": "Emergency requests still receive moratorium warnings"
+        },
+        {
+          "id": "r2_positive-02",
+          "kind": "FN",
+          "why": "8-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_positive-03",
+          "kind": "FN",
+          "why": "16-day gap on the same segment, different agency"
+        },
+        {
+          "id": "r2_positive-04",
+          "kind": "FN",
+          "why": "24-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_positive-05",
+          "kind": "FN",
+          "why": "32-day gap on the same segment, different agency"
+        },
+        {
+          "id": "r2_positive-06",
+          "kind": "FN",
+          "why": "40-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_positive-07",
+          "kind": "FN",
+          "why": "48-day gap on the same segment, different agency"
+        },
+        {
+          "id": "r2_positive-08",
+          "kind": "FN",
+          "why": "56-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_positive-09",
+          "kind": "FN",
+          "why": "64-day gap on the same segment, different agency"
+        },
+        {
+          "id": "r2_positive-10",
+          "kind": "FN",
+          "why": "72-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_positive-11",
+          "kind": "FN",
+          "why": "80-day gap on the same segment, different agency"
+        },
+        {
+          "id": "r2_positive-12",
+          "kind": "FN",
+          "why": "90-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_negative-01",
+          "kind": "FP",
+          "why": "Same-agency phases of the same named project"
+        },
+        {
+          "id": "r2_negative-03",
+          "kind": "FP",
+          "why": "Same street label but non-adjacent segments"
+        },
+        {
+          "id": "r2_negative-05",
+          "kind": "FP",
+          "why": "Same-agency phases of the same named project"
+        },
+        {
+          "id": "r2_negative-07",
+          "kind": "FP",
+          "why": "Same street label but non-adjacent segments"
+        },
+        {
+          "id": "r2_negative-09",
+          "kind": "FP",
+          "why": "Same-agency phases of the same named project"
+        },
+        {
+          "id": "r2_negative-11",
+          "kind": "FP",
+          "why": "Same street label but non-adjacent segments"
+        },
+        {
+          "id": "r2_negative-13",
+          "kind": "FP",
+          "why": "Same-agency phases of the same named project"
+        },
+        {
+          "id": "r2_negative-15",
+          "kind": "FP",
+          "why": "Same street label but non-adjacent segments"
+        },
+        {
+          "id": "r3_positive-01",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        },
+        {
+          "id": "r3_positive-02",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        },
+        {
+          "id": "r3_positive-03",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        },
+        {
+          "id": "r3_positive-04",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        },
+        {
+          "id": "r3_positive-05",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        },
+        {
+          "id": "r3_positive-06",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        }
+      ]
+    },
+    "B1": {
+      "tp": 1,
+      "fp": 18,
+      "fn": 27,
+      "tn": 30,
+      "precision": 0.05263157894736842,
+      "recall": 0.03571428571428571,
+      "errors": [
+        {
+          "id": "r1_positive-01",
+          "kind": "FN",
+          "why": "1 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-02",
+          "kind": "FN",
+          "why": "2 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-03",
+          "kind": "FN",
+          "why": "3 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-04",
+          "kind": "FN",
+          "why": "4 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-05",
+          "kind": "FN",
+          "why": "5 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-06",
+          "kind": "FN",
+          "why": "6 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-07",
+          "kind": "FN",
+          "why": "7 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-08",
+          "kind": "FN",
+          "why": "8 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-09",
+          "kind": "FN",
+          "why": "9 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-10",
+          "kind": "FN",
+          "why": "10 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-11",
+          "kind": "FN",
+          "why": "11 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_positive-12",
+          "kind": "FN",
+          "why": "1 months after actual resurfacing completion on the same segment"
+        },
+        {
+          "id": "r1_emergency-01",
+          "kind": "FN",
+          "why": "Emergency requests still receive moratorium warnings"
+        },
+        {
+          "id": "r1_emergency-02",
+          "kind": "FN",
+          "why": "Emergency requests still receive moratorium warnings"
+        },
+        {
+          "id": "r1_emergency-03",
+          "kind": "FN",
+          "why": "Emergency requests still receive moratorium warnings"
+        },
+        {
+          "id": "r1_emergency-04",
+          "kind": "FN",
+          "why": "Emergency requests still receive moratorium warnings"
+        },
+        {
+          "id": "r2_positive-02",
+          "kind": "FN",
+          "why": "8-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_positive-03",
+          "kind": "FN",
+          "why": "16-day gap on the same segment, different agency"
+        },
+        {
+          "id": "r2_positive-04",
+          "kind": "FN",
+          "why": "24-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_positive-05",
+          "kind": "FN",
+          "why": "32-day gap on the same segment, different agency"
+        },
+        {
+          "id": "r2_positive-06",
+          "kind": "FN",
+          "why": "40-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_positive-07",
+          "kind": "FN",
+          "why": "48-day gap on the same segment, different agency"
+        },
+        {
+          "id": "r2_positive-08",
+          "kind": "FN",
+          "why": "56-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_positive-09",
+          "kind": "FN",
+          "why": "64-day gap on the same segment, different agency"
+        },
+        {
+          "id": "r2_positive-10",
+          "kind": "FN",
+          "why": "72-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_positive-11",
+          "kind": "FN",
+          "why": "80-day gap on the same segment, different agency"
+        },
+        {
+          "id": "r2_positive-12",
+          "kind": "FN",
+          "why": "90-day gap on an adjacent segment, different agency"
+        },
+        {
+          "id": "r2_negative-01",
+          "kind": "FP",
+          "why": "Same-agency phases of the same named project"
+        },
+        {
+          "id": "r2_negative-03",
+          "kind": "FP",
+          "why": "Same street label but non-adjacent segments"
+        },
+        {
+          "id": "r2_negative-04",
+          "kind": "FP",
+          "why": "Overlapping dates on a different street"
+        },
+        {
+          "id": "r2_negative-05",
+          "kind": "FP",
+          "why": "Same-agency phases of the same named project"
+        },
+        {
+          "id": "r2_negative-07",
+          "kind": "FP",
+          "why": "Same street label but non-adjacent segments"
+        },
+        {
+          "id": "r2_negative-08",
+          "kind": "FP",
+          "why": "Overlapping dates on a different street"
+        },
+        {
+          "id": "r2_negative-09",
+          "kind": "FP",
+          "why": "Same-agency phases of the same named project"
+        },
+        {
+          "id": "r2_negative-11",
+          "kind": "FP",
+          "why": "Same street label but non-adjacent segments"
+        },
+        {
+          "id": "r2_negative-12",
+          "kind": "FP",
+          "why": "Overlapping dates on a different street"
+        },
+        {
+          "id": "r2_negative-13",
+          "kind": "FP",
+          "why": "Same-agency phases of the same named project"
+        },
+        {
+          "id": "r2_negative-15",
+          "kind": "FP",
+          "why": "Same street label but non-adjacent segments"
+        },
+        {
+          "id": "r2_negative-16",
+          "kind": "FP",
+          "why": "Overlapping dates on a different street"
+        },
+        {
+          "id": "r3_positive-01",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        },
+        {
+          "id": "r3_positive-02",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        },
+        {
+          "id": "r3_positive-03",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        },
+        {
+          "id": "r3_positive-04",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        },
+        {
+          "id": "r3_positive-05",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        },
+        {
+          "id": "r3_positive-06",
+          "kind": "FP",
+          "why": "Feasible windows overlap with room for both durations"
+        }
+      ]
+    }
+  },
+  "r3": {
+    "suggestions": 12,
+    "valid": 12,
+    "passRate": 1,
+    "invalid": []
+  },
+  "counts": {
+    "r1_positive": 12,
+    "r1_negative": 12,
+    "r1_emergency": 4,
+    "r2_positive": 12,
+    "r2_negative": 16,
+    "r3_positive": 12,
+    "r3_negative": 8
+  }
+}
