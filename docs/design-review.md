@@ -21,3 +21,8 @@ Functional CI evidence before this fix pass: run 38027373282 passed 91 unit test
 Limits: no physical phone, TalkBack or real mobile-data network was available. Emulator portrait/landscape and browser keyboard/semantic checks do not certify physical-device accessibility or performance. No real-world benefit claims are made.
 
 Questions skipped: user delegated routine decisions and requested hands-free delivery; fixed concrete findings within the locked scope.
+
+## Recapture correction
+The first finish review returned `recapture`: the 360px Android screenshot was clipped after dynamic density resizing. The test now restarts the app after each size change, checks the exact CSS viewport width and navigation bounds, and captures settled output. Run 38038034970 attempt 1 was interrupted by a Pixel Launcher ANR overlay before those checks; this is recorded as an emulator failure, not a passing app check. A failed-job rerun is pending.
+
+The build was plan-led and extended an incumbent civic-atlas direction. No concept-roll seed or five-block contract was created before implementation. The finish reviewer correctly treated those inputs as missing. This is an explicit process departure, recorded rather than repaired with a retrospective invented seed. The durable product and interface authority is PRODUCT.md plus the shipped-code-derived DESIGN.md.
