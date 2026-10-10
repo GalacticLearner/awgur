@@ -72,7 +72,8 @@ try {
  const timing=await page.evaluate(()=>({viewport:[innerWidth,innerHeight],paint:performance.getEntriesByType('paint').map(p=>({name:p.name,startTime:p.startTime}))}));
  writeFileSync(`${out}/performance.json`,JSON.stringify(timing,null,2));
  adb('shell','cmd','connectivity','airplane-mode','enable');adb('shell','svc','wifi','disable');adb('shell','svc','data','disable');
- adb('shell','am','force-stop','app.worksregistry.demo');adb('shell','am','start','-n','app.worksregistry.demo/.MainActivity');
+ adb('shell','am','force-stop','app.worksregistry.demo');adb('shell','am','start','-W','-n','app.worksregistry.demo/.MainActivity');
+ await expect.poll(()=>{try{return Number(adb('shell','pidof','app.worksregistry.demo').trim())}catch{return 0}},{timeout:20000}).toBeGreaterThan(0);
  const newPid=Number(adb('shell','pidof','app.worksregistry.demo').trim());await expect.poll(()=>device.webViews().some(v=>v.pid()===newPid),{timeout:20000}).toBe(true);page=await device.webViews().find(v=>v.pid()===newPid).page();page.setDefaultTimeout(20000);page.on('pageerror',error=>errors.push(String(error)));
  await expect(page.getByText('Offline. Map background unavailable. Works and findings are still available.',{exact:true})).toBeVisible();
  await expect(page.getByRole('heading',{name:'South Mada Street',exact:true})).toBeVisible();
