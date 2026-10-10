@@ -1,0 +1,22 @@
+import { execFileSync } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
+const adb = (...args) => execFileSync('adb',args,{encoding:'utf8'});
+const pid = adb('shell','pidof','app.worksregistry.demo').trim();
+const sockets = adb('shell','cat','/proc/net/unix').split('\n');
+const socketLine = sockets.find(line=>line.includes('webview_devtools_remote_'+pid));
+if(!socketLine) throw new Error('Installed app WebView debug socket unavailable');
+const socketName=socketLine.trim().split(/\s+/).at(-1).replace(/^@/,'');
+adb('forward','tcp:9222','localabstract:'+socketName);
+const targets=await (await fetch('http://127.0.0.1:9222/json/list')).json();
+const target=targets.find(t=>t.type==='page');
+if(!target) throw new Error('No installed WebView page');
+const result=await new Promise((resolve,reject)=>{
+ const socket=new WebSocket(target.webSocketDebuggerUrl);
+ const timer=setTimeout(()=>{socket.close();reject(new Error('WebView inspection timed out'))},20000);
+ socket.onopen=()=>socket.send(JSON.stringify({id:1,method:'Runtime.evaluate',params:{expression:'document.body.innerText',returnByValue:true}}));
+ socket.onmessage=event=>{const data=JSON.parse(event.data);if(data.id===1){clearTimeout(timer);socket.close();resolve(data.result?.result?.value)}};
+ socket.onerror=reject;
+});
+writeFileSync('qa/android/rendered-text.txt',String(result));
+if(!String(result).includes('Works Registry')||!String(result).includes('Synthetic demo data')) throw new Error('Installed APK content or disclosure missing');
+console.log('Installed WebView rendered content verified.');
