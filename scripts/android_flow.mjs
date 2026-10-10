@@ -11,7 +11,7 @@ if(!device)throw Error('No CI emulator');
 let page=await (await device.webView({pkg:'app.worksregistry.demo'})).page();
 page.setDefaultTimeout(20000);page.on('pageerror',error=>errors.push(String(error)));
 const base=new URL(await page.url()).origin+'/';
-const go=async path=>{await page.goto(`${base}#${path}`);await expect(page.getByText('Synthetic demo data',{exact:true})).toBeVisible();await expect(page.locator('main')).toBeVisible()};
+const go=async path=>{await page.goto(`${base}#${path}`);await expect(page.getByText('Synthetic demo data',{exact:true})).toBeVisible();await expect(page.locator('main[aria-busy="true"]:visible')).toHaveCount(0);await expect(page.locator('main:visible')).toHaveCount(1)};
 const check=(name)=>{checks.push(name);console.log('PASS:',name)};
 try {
  await expect(page.getByRole('heading',{name:'South Mada Street',exact:true})).toBeVisible();
